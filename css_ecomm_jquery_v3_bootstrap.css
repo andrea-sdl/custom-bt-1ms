@@ -1,0 +1,924 @@
+/*
+    Document   : css_ecomm_jquery
+    Created on : 12-ago-2011, 12.38.11
+    Author     : Cinzia
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+/*CARRELLO SIDEBAR*/
+
+#Cart{
+    margin:0px;
+    padding: 0px 0px 20px;
+    background-color:#f4f4f4;
+    overflow:hidden;
+    border-bottom: 1px solid #d1d1d1;
+    background-image: none;
+    color:#000000;
+}
+
+#Cart .top_sidebar{
+    min-height: 40px;
+    overflow:hidden;
+    margin:0px 3%;
+    width:94%;
+    padding:10px 0px;
+    border-bottom:1px solid #d1d1d1;
+}
+
+#Cart .carrello_icon_sidebar{
+    float:left;
+    min-height: 40px;
+    width: 40px;
+    background: transparent url(images/carrello_icon_sidebar.png) no-repeat;
+}
+
+#Cart .top_sidebar h2{
+    border-bottom: none;
+    font-size: 1.4em;
+    float:left;
+    line-height:40px;
+    padding-left:20px;
+}
+
+#Cart .simpleCart_items{
+    margin-bottom:20px !important;
+    padding:0px 3%;
+    width:94%;
+}
+
+#Cart .itemContainer{
+    overflow:hidden;
+    line-height:normal;
+    border-bottom: 1px solid #d1d1d1;
+    padding-bottom:10px;
+}
+
+.itemContainer .itemName {
+    width:100%;
+    float:left;
+    margin: 20px 0px 5px;
+    padding:0px 5px;
+}
+
+.itemContainer .itemAttributes {
+    float:left;
+    margin: 0px 0px 15px;
+    width:100%;
+}
+
+.itemContainer .itemAttributes span {
+    float:left;
+    font-size:14px;
+    font-weight:300;
+    background-color:#f8f8f8;
+    border-radius:10px;
+    padding:0px 10px 2px;
+    border:1px solid #e8e8e8;
+    box-shadow:1px 1px 3px #eee inset;
+}
+
+.itemContainer .itemPrice {
+    width:40%;
+    float:left;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #920d0c;
+    text-align: center;
+    border-right: 1px solid #d1d1d1;
+    min-height:30px;
+    line-height:30px;
+}
+
+.itemContainer .itemdecrement{
+    width:7%;
+    float:left;
+    min-height:30px;
+    line-height:30px;
+    margin-left: 2%;
+}
+
+.itemContainer .itemdecrement a{
+    text-decoration:none;
+}
+
+.itemContainer .itemQuantity{
+    width:7%;
+    float:left;
+    min-height:30px;
+    line-height:30px;
+}
+
+.itemContainer .itemincrement{
+    width:7%;
+    float:left;
+    min-height:30px;
+    line-height:30px;
+}
+
+.itemContainer .itemincrement a{
+    text-decoration:none;
+}
+
+.itemContainer .itemRemove{
+    width:32%;
+    padding-left:3%;
+    min-height:30px;
+    line-height:30px;
+    float:left;
+    border-left: 1px solid #d1d1d1;
+}
+
+.itemContainer .itemRemove a{
+    background: transparent url(images/carrello_icon_sidebar_small.png) no-repeat;
+    background-position: center right;
+    color:#920d0c;
+    display: block;
+    text-align: left;
+    padding-right: 30px;
+    font-size: 0.9em;
+}
+
+.itemContainer .itemRemove .itemdecrement .itemincrement a{
+    color:#920d0c;
+}
+
+.itemContainer .product-image{
+    width:120px;
+    height:auto;
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+}
+
+#Cart .total{
+    float:right;
+    text-align: right;
+    display:block;
+    text-transform: uppercase;
+    font-size:12px;
+    clear: both;
+    padding:5px 0px;
+}
+
+#Cart .total span{
+    font-weight:bold;
+    font-size:15px;
+    text-align: right;
+}
+
+#Cart .total.shipping{
+    padding:0px 3%;
+    width:94%;
+    float:left;
+}
+
+#Cart .total.final_total{
+    margin-bottom:20px !important;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: right;
+    float:left;
+    padding:0px 3%;
+    width:94%;
+}
+
+#Cart .total.final_total span{
+    color: #920d0c;
+    font-size: 16px;
+}
+
+#Cart .checkout {
+    display:block;
+    overflow:hidden;
+    padding:0px 3%;
+    width:94%;
+}
+
+#Cart .checkout .bottone_checkout{
+    color:#ffffff;
+    text-decoration:none;
+    float: right;
+    clear: both;
+}
+
+#Cart .checkout span{
+    background: url(images/btn_dark_red_arrow.png);
+}
+
+#Cart .checkout span{
+    background-position: 0px 0px;
+    height: 40px;
+    font-weight: 600;
+    padding: 0 0 0 15px;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform:uppercase;
+    color: #ffffff;
+    clear: both;
+    float: left;
+}
+
+#Cart .checkout span span{
+    background-position: 100% 0;
+    padding: 0px 40px 0 0px;
+    height: 40px;
+    line-height:40px;
+}
+
+#Cart .checkout span:hover{
+    background-position: 0 -40px;
+}
+
+#Cart .checkout span:hover span{
+    background-position: 100% -40px;
+}
+
+
+/*cart headers*/
+
+div.itemId,
+div.itemMaxquantity{
+    display:none;
+}
+
+.cartHeaders .itemName{
+    width:100%;
+    float:left;
+    display:none;
+}
+
+.cartHeaders .itemAttributes{
+    width:100%;
+    float:left;
+    display:none;
+}
+
+.cartHeaders .itemPrice{
+    width:30%;
+    float:left;
+    display:none;
+}
+
+.cartHeaders .itemQuantity{
+    width:30%;
+    float:left;
+    display:none;
+}
+
+div.itemTotal{
+    width:20%;
+}
+
+
+/* GALLERIA PRODOTTI*/
+
+.product-item .product-add-to-cart span{
+    background: transparent url(images/btn_dark_red_carrello.png) no-repeat;
+}
+
+/*grid*/
+
+.div_product_catalog.product-catalog-view-grid {
+    margin-bottom:20px;
+}
+
+.product-catalog-view-grid .product-item{
+    float:left;
+    border:none;
+    border: 1px solid #DBDBDB;
+    overflow:hidden;
+    width:27%;
+    margin: 0 1% 20px 0;
+    padding: 10px 2% 20px;
+
+}
+
+.product-catalog-view-grid .product-item .product-image{
+    float:none;
+    display:block;
+    margin: 0px auto 10px;
+    height:150px;
+}
+
+.product-catalog-view-grid .product-item .product-image a{
+    display:block;
+}
+
+.product-catalog-view-grid .product-item .product-image img {
+    background-color:#fff;
+    border:none ;
+    margin:0px auto;
+    display:block;
+    width:120px;
+}
+
+.product-catalog-view-grid .product-item .product_info{
+    padding:0px;
+    margin:0px;
+    border:none;
+    background-color:transparent;
+    overflow: hidden;
+    color:#4d4d4d;
+}
+
+.product-catalog-view-grid .product-item .product-name{
+    float:none;
+    font-weight: 600;
+    padding: 0px;
+    font-size:18px;
+    margin-bottom:15px;
+    border:none;
+    line-height:20px;
+    height:60px;
+
+    overflow: hidden;
+    width: 100%;
+}
+
+.product-catalog-view-grid .product-item .product-name a{
+    text-decoration: none;
+}
+
+.product-catalog-view-grid .product-item .product-price{
+    float:left;
+    display: block;
+    width: 75%;
+    font-weight: bold;
+    text-align: left;
+    padding: 0px;
+    font-size: 15px ;
+    line-height:35px;
+    border:none;
+    margin:0px;
+    min-height:35px;
+    clear: both;
+    color:#920D0C;
+}
+
+.product-catalog-view-grid .product-item .product-quantity{
+    display: none;
+}
+
+.product-catalog-view-grid .product-item .product-add-to-cart{
+    float:left;
+    width: 25%;
+    text-align: center;
+    color:#ffffff;
+    padding: 0px;
+
+    text-decoration:none;
+}
+
+.product-catalog-view-grid .product-item .product-add-to-cart a{
+    color: #ffffff;
+    text-decoration: none;
+    float: right;
+}
+
+.product-catalog-view-grid .product-item .product-add-to-cart span{
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    height: 35px;
+    font-weight: normal;
+    padding: 0px 0px 0px 4px;
+    text-align: center;
+    white-space: normal;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0px;
+    line-height: 35px;
+    color: #ffffff;
+    text-transform: none;
+    margin: 0px;
+    clear: both;
+    float: left;
+}
+
+.product-catalog-view-grid .product-item .product-add-to-cart span span{
+    background-position: 100% 0;
+    height: 35px;
+    line-height: 35px;
+    padding: 0px 32px 0px 0px;
+}
+
+/*grid nosidebar*/
+
+body.sidebar-0 .product-catalog-view-grid .product-item{
+    width:21%;
+    float:left;
+    margin:0px 7px 20px;
+}
+
+/*list*/
+
+.product-catalog-view-list .product-item{
+    overflow:hidden;
+    line-height:normal;
+    margin-bottom: 20px;
+    border:1px solid #d1d1d1;
+    padding:10px;
+}
+
+.product-catalog-view-list .product-item .product_info{
+    line-height: normal;
+    margin-bottom: 10px;
+    overflow: hidden;
+    color:#4d4d4d;
+}
+
+.product-catalog-view-list .product-item .product-image{
+    float:left;
+    margin-right: 20px;
+}
+
+.product-catalog-view-list .product-item .product-image a {
+    display:block;
+}
+
+.product-catalog-view-list .product-item .product-image a img {
+    display:block;
+    width:120px;
+    padding:0px !important;
+    border:none !important;
+    margin:0px !important;
+}
+
+.product-catalog-view-list .product-item .product-name{
+    float:left;
+    font-weight: 600;
+    font-size:18px;
+    overflow: hidden;
+    padding: 0px;
+    width: 100%;
+    margin-bottom:10px;
+}
+
+.product-catalog-view-list .product-item .product-name a{
+    text-decoration: none;
+}
+
+.product-catalog-view-list .product-item .product-price{
+    float:left;
+    display: block;
+    clear: both;
+    width: 30%;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px 0px 10px;
+    line-height:35px;
+    min-height:35px;
+    font-size: 15px;
+    color:#920D0C;
+}
+
+.product-catalog-view-list .product-item .product-quantity{
+    float:left;
+    display: block;
+    width: 23%;
+    font-weight: normal;
+    text-align: center;
+    padding: 10px 1% 10px;
+    font-size: 0.8em !important;
+    min-height:35px;
+    line-height:35px;
+}
+
+.product-catalog-view-list .product-item .product-add-to-cart{
+    float:left;
+    width: 45%;
+    float: right;
+    text-align: center;
+    color:#ffffff;
+    text-decoration:none;
+    padding: 10px 0 10px;
+}
+
+.product-catalog-view-list .product-item .product-add-to-cart a{
+    color: #ffffff;
+    text-decoration: none;
+    float: right;
+    clear: both;
+}
+
+.product-catalog-view-list .product-item .product-add-to-cart span{
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    height: 35px;
+    font-weight: 600;
+    padding: 0px 0px 0px 10px;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform:uppercase;
+    color: #ffffff;
+    margin: 0px;
+    clear: both;
+    float: left;
+}
+
+.product-catalog-view-list .product-item .product-add-to-cart span span{
+    background-position: 100% 0;
+    height: 35px;
+    line-height: 35px;
+    padding: 0px 30px 0px 0px;
+}
+
+.product-item .product-add-to-cart span:hover{
+    background-position: 0 -35px;
+}
+
+.product-item .product-add-to-cart span:hover span{
+    background-position: 100% -35px;
+}
+
+
+/*SCHEDA PRODOTTO*/
+
+.product_ttil .product-image {
+    text-align:center;
+    width:35%;
+    margin: 0px 2% 10px 0px;
+    float:left;
+    overflow:hidden;
+
+}
+
+.product_ttil .product-image img{
+    border:none;
+    margin:0px auto;
+    width:100%;
+}
+
+.product_ttil .div_product_gallery {
+    overflow:hidden;
+    margin-top:10px;
+    float:left;
+}
+
+.product_ttil .div_product_gallery img {
+    height:40px;
+}
+
+.product_ttil .product-description {
+    display:block;
+    float:left;
+    width:100%;
+    margin-top:20px;
+}
+
+.category-product {
+    padding:0px 2% 20px;
+    width:58%;
+    float:left;
+}
+
+.category-product h3 {
+    margin:0px 0px 10px;
+    font-size:20px;
+    font-weight:600;
+    color:#4D4D4D;
+    float:left;
+    width:100%;
+}
+
+.category-product .product_info{
+    line-height: normal;
+    overflow: hidden;
+    width: 100%;
+    color:#4d4d4d;
+}
+
+.category-product .product_code {
+    clear: both;
+    display: block;
+    float: left;
+    text-align: left;
+    width: 100%;
+    font-size:11px;
+    margin-bottom:10px
+}
+
+.category-product .product-attributes {
+    float:left;
+    margin-bottom:20px;
+    width:100%;
+}
+
+.category-product .product-attributes select {
+    float:left;
+    padding:4px;
+    border: 1px solid #d1d1d1;
+}
+
+.category-product .product-attributes select option {
+    padding:0 15px 0 10px;
+}
+
+.category-product .product_quantity{
+    display: block;
+    float: left;
+    font-weight: normal;
+    padding: 10px 0px;
+    text-align: right;
+    font-size:13px;
+    width: 100%;
+    clear:both;
+}
+
+.category-product .product_price{
+    display: block;
+    float: left;
+    padding: 0px;
+    text-align: left;
+    width: 100%;
+    color: #740B0B;
+    font-size: 22px;
+    line-height:32px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+.category-product .product_price .price-vat {
+    display:block;
+    font-size:14px;
+    line-height:14px;
+    font-weight:normal;
+}
+
+.category-product .product-add-to-cart{
+    color: #FFFFFF;
+    float:left;
+    padding: 0px;
+    text-align: right;
+    text-decoration: none;
+    width: 100%;
+}
+
+.category-product .product-add-to-cart a{
+    float:right;
+}
+
+.category-product .product-add-to-cart span{
+    background: transparent url(images/btn_dark_red_carrello.png) no-repeat;
+}
+
+.category-product .product-add-to-cart span{
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    clear: both;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform:uppercase;
+    height: 35px;
+    margin: 0px;
+    padding: 0 0 0 10px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.category-product .product-add-to-cart span span{
+    background-position: 100% 0;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 35px 0 0;
+}
+
+.category-product .product-add-to-cart span:hover{
+    background-position: 0 -35px;
+}
+
+.category-product .product-add-to-cart span:hover span{
+    background-position: 100% -35px;
+}
+
+
+/*FORM*/
+
+root {
+    display: block;
+}
+
+#orderSuccess {
+    background: transparent url(images/ui_ringraziamenti_ecomm_2.png) no-repeat;
+}
+
+#orderSuccess p {
+    margin-left:107px; width: 150px;
+    font-size: 15px;
+    position: relative;
+}
+
+.ui-message-dialog .ui-widget-header {
+    background: none !important;
+    border: none !important;
+}
+
+#orderError{
+    background: transparent url(images/ui_failed_ecomm_2.png) no-repeat;
+}
+
+#orderError p {
+    float:right; width: 150px;
+    font-size: 15px;
+}
+
+#cartForm{
+    background-color: white;
+}
+
+.ui-message-form .input_row{
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #404040;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 22px;
+    margin: 0;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+.ui-message-form select {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+    font-family: 'Segoe UI',Tahoma,Geneva,Arial,Helvetica,sans-serif;
+    width: 270px;
+    min-height:30px;
+    border: 1px solid #E8E8E8;
+    padding: 5px;
+}
+
+.ui-message-form .form_totale span{
+    background: transparent url(images/btn_dark_red_acq.png) no-repeat;
+}
+
+.ui-message-dialog .ui-widget-header {
+    background: none !important;
+    border: none !important;
+    width: 259px !important;
+}
+
+#orderSuccess p {
+    margin-left:107px; width: 150px;
+    font-size: 15px;
+    position: relative;
+}
+
+
+.ui-message-form .input_row .input_label{
+    margin-top: 0px !important;
+    color: #000000;
+}
+
+#fe_payment_method{
+
+    display: block;
+    height: 20px;
+    left: 10px;
+    width: auto;
+    margin-top: 15px;
+}
+
+
+.ui-message-form .input_row input{
+    background: #fff !important;
+    font-family: 'Segoe UI',Tahoma,Geneva,Arial,Helvetica,sans-serif !important;
+    width:266px !important;
+    color:#000000;
+    border: 1px solid #E8E8E8;
+}
+
+.ui-message-form .input_row label{
+    color: red;
+    float:right;
+    margin-right:10px;
+    font-family: 'Segoe UI',Tahoma,Geneva,Arial,Helvetica,sans-serif !important;
+    font-size: 10px !important;
+}
+
+#metodo_pagamento{
+    position: relative;
+    margin-bottom: 30px !important;
+}
+
+#form_privacy{
+    font-size:10px !important;
+    line-height: 12px;
+}
+
+.ui-message-form .form_totale{
+    display: block;
+    margin: 0px !important;
+    font-size:0.8em;
+    text-transform: uppercase;
+}
+
+.ui-message-form .form_totale p{
+    float: right;
+}
+
+.ui-message-form .form_totale .bottone_ordina{
+    color:#ffffff;
+    text-decoration:none;
+    float: right;
+    clear: both;
+}
+
+
+.ui-message-form .form_totale span{
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    height: 35px;
+    font-weight: bold;
+    padding: 0 0 0 15px;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+
+    text-transform: uppercase;
+    margin: 0px;
+    float: left;
+}
+
+.ui-message-form .form_totale span span{
+    background-position: 100% 0;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 15px 0 0;
+}
+
+.ui-message-form .form_totale span:hover{
+    background-position: 0 -35px;
+
+}
+
+.ui-message-form .form_totale span:hover span{
+    background-position: 100% -35px;
+
+}
+
+.ui-message-form .form_totale span span #invia{
+    height: 35px !important;
+    background: none;
+    border: none;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    height: 30px;
+    font-weight: bold;
+    line-height: 35px;
+    padding: 0 0 0 15px;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+
+/*========== stile gallery ==========*/
+
+.div_gallery a.gallery-image-wrapper {
+    background-attachment: initial;
+    background-clip: initial;
+    background-color: #EEEEEE;
+    background-image: initial;
+    background-origin: initial;
+    border-color: #DDDDDD;
+    border-style: solid;
+    border-width: 1px;
+    float: left;
+    margin: 3px;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+}
