@@ -10,7 +10,7 @@ body {
     font-family: 'Open Sans',"Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight:300;
-    -webkit-text-stroke: 0.4px rgba(0,0,0,0.1)
+    -webkit-text-stroke-width: 0.3px;
 }
 .col-1,.col-2{
     font-weight:400;
