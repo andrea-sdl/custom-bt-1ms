@@ -248,4 +248,5 @@ h6,
 }
 
 
-#insert_content{width:495px;}
+#insert_content{width:495px !important;}
+#insert_content .add_content_block {height:112px !important}
