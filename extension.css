@@ -250,3 +250,16 @@ h6,
 
 #insert_content{width:495px !important;}
 #insert_content .add_content_block {height:112px !important}
+
+@media (max-width: 767px) {
+  #Cart{display:block;}
+  .sidebar_block {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #Cart{display:block;}
+  .sidebar_block {
+    display: none !important;
+  }
+}
