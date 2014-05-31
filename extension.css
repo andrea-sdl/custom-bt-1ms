@@ -229,7 +229,7 @@ h6,
 
 #main-nav-menu-div{margin-top:40px;}
 
-.flexible-container {
+.flexible-container,.div_google_map {
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 30px;
@@ -237,9 +237,9 @@ h6,
     overflow: hidden;
 }
 
-.flexible-container iframe,   
-.flexible-container object,  
-.flexible-container embed {
+.flexible-container iframe,.div_google_map iframe,   
+.flexible-container object,.div_google_map object,  
+.flexible-container embed ,.div_google_map embed{
     position: absolute;
     top: 0;
     left: 0;
