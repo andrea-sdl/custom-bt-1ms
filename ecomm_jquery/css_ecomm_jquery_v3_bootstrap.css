@@ -196,8 +196,8 @@
 #Cart .checkout {
     display:block;
     overflow:hidden;
-    padding:0px 3%;
-    width:94%;
+    padding:5px;
+    width:100%;
 }
 
 #Cart .checkout .bottone_checkout{
@@ -207,17 +207,12 @@
     clear: both;
 }
 
-#Cart .checkout span{
-    background: url(images/btn_dark_red_arrow.png);
-}
 
 #Cart .checkout span{
-    background-position: 0px 0px;
     height: 40px;
     font-weight: 600;
     padding: 0 0 0 15px;
     text-align: center;
-    white-space: nowrap;
     text-decoration: none;
     cursor: pointer;
     text-align: center;
@@ -228,21 +223,6 @@
     color: #ffffff;
     clear: both;
     float: left;
-}
-
-#Cart .checkout span span{
-    background-position: 100% 0;
-    padding: 0px 40px 0 0px;
-    height: 40px;
-    line-height:40px;
-}
-
-#Cart .checkout span:hover{
-    background-position: 0 -40px;
-}
-
-#Cart .checkout span:hover span{
-    background-position: 100% -40px;
 }
 
 
@@ -283,10 +263,6 @@ div.itemTotal{
 
 
 /* GALLERIA PRODOTTI*/
-
-.product-item .product-add-to-cart span{
-    background: transparent url(images/btn_dark_red_carrello.png) no-repeat;
-}
 
 /*grid*/
 
@@ -407,14 +383,6 @@ div.itemTotal{
     clear: both;
     float: left;
 }
-
-.product-catalog-view-grid .product-item .product-add-to-cart span span{
-    background-position: 100% 0;
-    height: 35px;
-    line-height: 35px;
-    padding: 0px 32px 0px 0px;
-}
-
 /*grid nosidebar*/
 
 body.sidebar-0 .product-catalog-view-grid .product-item{
