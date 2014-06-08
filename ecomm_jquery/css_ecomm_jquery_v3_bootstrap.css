@@ -437,14 +437,6 @@ body.sidebar-0 .product-catalog-view-grid .product-item{
     clear: both;
 }
 
-.product-item .product-add-to-cart span:hover{
-    background-position: 0 -35px;
-}
-
-.product-item .product-add-to-cart span:hover span{
-    background-position: 100% -35px;
-}
-
 
 /*SCHEDA PRODOTTO*/
 
@@ -560,10 +552,7 @@ body.sidebar-0 .product-catalog-view-grid .product-item{
 }
 
 .category-product .product-add-to-cart{
-    color: #FFFFFF;
     float:left;
-    padding: 0px;
-    text-align: right;
     text-decoration: none;
     width: 100%;
 }
@@ -572,42 +561,6 @@ body.sidebar-0 .product-catalog-view-grid .product-item{
     float:right;
 }
 
-.category-product .product-add-to-cart span{
-    background: transparent url(images/btn_dark_red_carrello.png) no-repeat;
-}
-
-.category-product .product-add-to-cart span{
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    clear: both;
-    color: #FFFFFF;
-    cursor: pointer;
-    float: left;
-    font-size: 13px;
-    font-weight: 600;
-    text-transform:uppercase;
-    height: 35px;
-    margin: 0px;
-    padding: 0 0 0 10px;
-    text-align: center;
-    text-decoration: none;
-    white-space: nowrap;
-}
-
-.category-product .product-add-to-cart span span{
-    background-position: 100% 0;
-    height: 35px;
-    line-height: 35px;
-    padding: 0 35px 0 0;
-}
-
-.category-product .product-add-to-cart span:hover{
-    background-position: 0 -35px;
-}
-
-.category-product .product-add-to-cart span:hover span{
-    background-position: 100% -35px;
-}
 
 
 /*FORM*/
