@@ -433,38 +433,8 @@ body.sidebar-0 .product-catalog-view-grid .product-item{
 }
 
 .product-catalog-view-list .product-item .product-add-to-cart a{
-    color: #ffffff;
-    text-decoration: none;
     float: right;
     clear: both;
-}
-
-.product-catalog-view-list .product-item .product-add-to-cart span{
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
-    height: 35px;
-    font-weight: 600;
-    padding: 0px 0px 0px 10px;
-    text-align: center;
-    white-space: nowrap;
-    text-decoration: none;
-    cursor: pointer;
-    text-align: center;
-    white-space: nowrap;
-    text-decoration: none;
-    font-size: 12px;
-    text-transform:uppercase;
-    color: #ffffff;
-    margin: 0px;
-    clear: both;
-    float: left;
-}
-
-.product-catalog-view-list .product-item .product-add-to-cart span span{
-    background-position: 100% 0;
-    height: 35px;
-    line-height: 35px;
-    padding: 0px 30px 0px 0px;
 }
 
 .product-item .product-add-to-cart span:hover{
