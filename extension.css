@@ -819,5 +819,6 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
 
     .product-catalog-view-list .product-item .product-add-to-cart{float:none}
 
-    .ui-dialog{top: 0px !important; left: 0px !important; width: 100% !important;}
+    .ui-dialog{top: 0px !important; left: 0px !important; width: 100% !important;font-size:16px }
+    .ui-dialog input,.ui-dialog select{font-size:16px }
 }
