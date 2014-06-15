@@ -136,7 +136,6 @@
 }
 
 .itemContainer .itemRemove a{
-    background: transparent url(images/carrello_icon_sidebar_small.png) no-repeat;
     background-position: center right;
     color:#920d0c;
     display: block;
