@@ -701,3 +701,4 @@ root {
     position: relative;
     text-align: center;
 }
+.ui-dialog{z-index:100001}
