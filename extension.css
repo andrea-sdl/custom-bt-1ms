@@ -798,6 +798,9 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
 
 /*ecommerce responsive*/
 @media (max-width: 991px) {
+    .product-catalog-view-grid .product-item .product-price {line-height: 25px;min-height: 25px;}
+    .product-catalog-view-grid .product-item .product-add-to-cart {float: none;width: 100%;text-align: center;}
+    .product-catalog-view-grid .product-item .product-name{margin-bottom:5px}
 
     .product-catalog-view-list .product-item .product_info{clear:both}
     .product-catalog-view-list .product-item .product-image{float:none; clear:both; }
