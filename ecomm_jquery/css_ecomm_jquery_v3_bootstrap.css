@@ -618,10 +618,6 @@ root {
     padding: 5px;
 }
 
-.ui-message-form .form_totale span{
-    background: transparent url(images/btn_dark_red_acq.png) no-repeat;
-}
-
 .ui-message-dialog .ui-widget-header {
     background: none !important;
     border: none !important;
@@ -686,7 +682,7 @@ root {
 .ui-message-form .form_totale p{
     float: right;
 }
-.bottone_ordina {color:#fff;clear:both}
+.ui-widget-content a.bottone_ordina{color:#fff;clear:both}
 
 /*========== stile gallery ==========*/
 
