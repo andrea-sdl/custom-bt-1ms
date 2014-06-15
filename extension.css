@@ -252,14 +252,14 @@ h6,
 #insert_content .add_content_block {height:112px !important}
 
 @media (max-width: 767px) {
-  #Cart{display:block !important;}
-  .sidebar_block {
+  #Cart,.sidebar-btn, .sidebar_block.sidebar-show{display:block !important;}
+  .sidebar_block,.sidebar-hide{
     display: none !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  #Cart{display:block !important;}
-  .sidebar_block {
+  #Cart,.sidebar-btn, .sidebar_block.sidebar-show{display:block !important;}
+  .sidebar_block,.sidebar-hide {
     display: none !important;
   }
 }
