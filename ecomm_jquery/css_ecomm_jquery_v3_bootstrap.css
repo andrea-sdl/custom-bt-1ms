@@ -701,4 +701,5 @@ root {
     position: relative;
     text-align: center;
 }
-.ui-widget-overlay,.ui-dialog{z-index:100001 !important}
+.ui-dialog{z-index:100001 !important}
+.ui-widget-overlay{z-index:100000 !important}
