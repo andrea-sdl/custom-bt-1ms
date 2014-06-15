@@ -601,7 +601,7 @@ root {
     border: medium none;
     color: #404040;
     font-family: Arial,Helvetica,sans-serif;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 22px;
     margin: 0;
     padding: 0px;
@@ -613,7 +613,7 @@ root {
     color: #000000;
     font-family: 'Segoe UI',Tahoma,Geneva,Arial,Helvetica,sans-serif;
     width: 270px;
-    min-height:30px;
+    min-height:40px;
     border: 1px solid #E8E8E8;
     padding: 5px;
 }
@@ -626,7 +626,7 @@ root {
 
 #orderSuccess p {
     margin-left:107px; width: 150px;
-    font-size: 15px;
+    font-size: 16px;
     position: relative;
 }
 
@@ -659,7 +659,7 @@ root {
     float:right;
     margin-right:10px;
     font-family: 'Segoe UI',Tahoma,Geneva,Arial,Helvetica,sans-serif !important;
-    font-size: 10px !important;
+    font-size: 16px !important;
 }
 
 #metodo_pagamento{
