@@ -1,6 +1,6 @@
 function showHideSidebarOnSmallDevices()
 {
-    if (jQuery("sidebar-btn-show").is(":visible"))
+    if (jQuery("#sidebar-btn-show").is(":visible"))
     {
         jQuery(".sidebar_content").addClass("sidebar-show");
         jQuery(".sidebar_content").removeClass("sidebar-hide");
