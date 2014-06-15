@@ -779,3 +779,9 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
     color: #333;
 }
 
+@media (max-width: 991px) {
+    .product_info{clear:both}
+    .product_image{float:none;clear:both}
+    .product-name,.product_image{;text-align:center}
+    .product-catalog-view-list .product-item .product-image a img {display:inline}
+}
