@@ -209,6 +209,7 @@ body {
 }
 .col-1,.col-2{
     font-weight:400;
+    margin-bottom:40px;
 }
 h1,
 h2,
@@ -793,7 +794,7 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
     .product-catalog-view-list .product-item .product-add-to-cart a{float:none}
 
     .product-catalog-view-list .product-item .product-price,
-    .product-catalog-view-list .product-item .product-quantity{width:47%}
+    .product-catalog-view-list .product-item .product-quantity{width:100%; clear:both;padding:0px;text-align:center}
 
     .product-catalog-view-list .product-item .product-add-to-cart{float:none}
 
