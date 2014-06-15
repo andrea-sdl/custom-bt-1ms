@@ -780,14 +780,21 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
 }
 
 @media (max-width: 991px) {
-    .product_info{clear:both}
-    .product_image{float:none; clear:both}
-    .product-name,.product_image{text-align:center}
-    .product_price{width:auto}
+    .product-catalog-view-list .product-item .product_info{clear:both}
+    .product-catalog-view-list .product-item .product-image{float:none; clear:both; }
+
+    .product-catalog-view-list .product-item .product-name,
+    .product-catalog-view-list .product-item .product-image{text-align:center}
+
+    .product-catalog-view-list .product-item .product-add-to-cart,
+    .product-catalog-view-list .product-item .product_price{width:auto}
+
     .product-catalog-view-list .product-item .product-image a img {display:inline}
     .product-catalog-view-list .product-item .product-add-to-cart a{float:none}
 
     .product-catalog-view-list .product-item .product-price,
     .product-catalog-view-list .product-item .product-quantity{width:47%}
+
+    .product-catalog-view-list .product-item .product-add-to-cart{float:none}
 
 }
