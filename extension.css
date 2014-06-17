@@ -502,7 +502,7 @@ input, textarea {
 
 #invia {
 	border:none;
-	background-color:#f1645f;
+	background-color:#F13D49;
 	color:#ffffff;
 	box-shadow:inset 0 -2px 0px #d24847;
 	padding:5px 30px;
@@ -516,7 +516,7 @@ input, textarea {
 }
 
 #invia:hover, #invia:active {
-	background-color:#ff7f77;
+	background-color:#ee1725;
 }
 
 
@@ -573,6 +573,20 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
 }
 
 
+/*bottoni*/
+.btn-lg, .btn-group-lg > .btn {
+	border-radius: 4px;
+    box-shadow: 0 -2px 0 #D24847 inset;
+	font-weight: 700;
+    line-height: 0.33;
+	text-transform: uppercase;
+}
+
+.btn-primary {
+	border: medium none;
+}
+
+
 /*stili responsive*/
 @media (max-width: 767px) {
 .logo-img a img {
@@ -582,6 +596,11 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
 .company-data.logo-3 {
 	padding-left:20px;
 	text-align:center;
+}
+
+.title-jumbo a {
+	font-size:36px;
+	line-height:1.4em;
 }
 
 .company-data.logo-4 {
