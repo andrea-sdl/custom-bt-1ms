@@ -827,9 +827,13 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
 /*ecommerce responsive*/
 @media (max-width: 767px) {
     .product-catalog-view-grid .product-item{width:100%}
+	.product-catalog-view-list .product-item .product-image {width:auto;}
+	.product-catalog-view-list .product-item .product-add-to-cart a {display:block;}
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .product-catalog-view-grid .product-item{width:48%}
+	.product-catalog-view-list .product-item .product-image {width:auto;}
+	.product-catalog-view-list .product-item .product-add-to-cart a {display:block;}
 }
 
 @media (max-width: 991px) {
