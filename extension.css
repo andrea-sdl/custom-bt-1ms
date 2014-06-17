@@ -394,13 +394,14 @@ h6,
 
 #menu_2 li a:hover, #menu_2 li a:focus {
 	background-color:#e1e1e1;
+	color:#000;
 }
 
 
 /*breadcrumbs*/
 .breadcrumb {
 	position:relative;
-	border-radius:0px;
+	border-radius:4px;
 	color:#bbbbbb;
 	font-size:14px;
 	background-color:#fafafa;
@@ -823,26 +824,7 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
 }
 
 
-/*ecommerce*/
-#Cart {
-    background-color: #fff;
-    border: 1px solid #e1e1e1;
-    color: #333;
-}
-
-#Cart,.product-catalog-view-grid .product-item,.product-catalog-view-list .product-item {
-    border: 1px solid #e1e1e1;
-    border-radius: 4px;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
-}
-.product-catalog-view-grid .product-item{width:30.5%}
-.product-catalog-view-grid .product-item .product-price {line-height: 25px;min-height: 25px;}
-.product-catalog-view-grid .product-item .product-add-to-cart {float: none;width: 100%;text-align: center;}
-.product-catalog-view-grid .product-item .product-name{margin-bottom:5px}
-
-
-
+/*ecommerce responsive*/
 @media (max-width: 767px) {
     .product-catalog-view-grid .product-item{width:100%}
 }
@@ -850,7 +832,6 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
     .product-catalog-view-grid .product-item{width:48%}
 }
 
-/*ecommerce responsive*/
 @media (max-width: 991px) {
     .product-catalog-view-list .product-item .product_info{clear:both}
     .product-catalog-view-list .product-item .product-image{float:none; clear:both; }
