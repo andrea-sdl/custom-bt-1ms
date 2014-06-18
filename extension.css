@@ -641,13 +641,14 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
 /*ecommerce responsive*/
 @media (max-width: 568px) {
 .product_ttil img {width:100%;}
+.product_ttil .product-add-to-cart .btn-primary {display:block;}
+.product_ttil .category-product .product_price {margin-top:10px;}
 }
 @media (max-width: 767px) {
     .product-catalog-view-grid .product-item{width:100%}
 	
 	.product-catalog-view-grid .product-item .product_info {text-align:center;}
 	.product_ttil .category-product .product-attributes, .product_ttil .category-product .product-attributes select, .product_ttil .category-product .product_quantity {width:100%;}
-	.product_ttil .category-product .product-attributes {margin-bottom:20px;}
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .product-catalog-view-grid .product-item{width:48%}
