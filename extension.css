@@ -327,7 +327,6 @@ input, textarea {
 	border:none;
 	background-color:#F13D49;
 	color:#ffffff;
-	box-shadow:inset 0 -2px 0px #d24847;
 	padding:5px 30px;
 	border-radius:4px;
 	font-size:18px;
@@ -399,7 +398,6 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
 /*bottoni*/
 .btn-lg, .btn-group-lg > .btn {
 	border-radius: 4px;
-    box-shadow: 0 -2px 0 #D24847 inset;
 	font-weight: 400;
     line-height: 0.33;
 	text-transform: uppercase;
@@ -621,6 +619,24 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+
+/*ecommerce*/
+.itemContainer .itemPrice {
+    color: #920d0c;
+}
+
+.itemContainer .itemRemove a{
+    color:#920d0c;
+}
+
+.itemContainer .itemRemove .itemdecrement .itemincrement a{
+    color:#920d0c;
+}
+
+#Cart .total.final_total span{
+    color: #920d0c;
 }
 
 
