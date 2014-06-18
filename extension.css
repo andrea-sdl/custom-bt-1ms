@@ -661,6 +661,6 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
     .ui-dialog{top: 0px !important; left: 0px !important; width: 100% !important;font-size:16px }
     .ui-dialog input,.ui-dialog select{font-size:16px }
 }
-@media (min-width: 975px) and (max-width: 1200px) {
+@media (min-width: 965px) and (max-width: 1200px) {
 #Cart .carrello_icon_sidebar {float: none; margin: 0 auto;}
 }
