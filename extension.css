@@ -3,8 +3,7 @@
 @font-face{
     font-family: 'FiraSans';
     src: url('fonts/FiraSans-Hair.eot');
-    src: local('Fira Sans Hair'),
-         url('fonts/FiraSans-Hair.eot') format('embedded-opentype'),
+    src: url('fonts/FiraSans-Hair.eot?#iefix') format('embedded-opentype'),
          url('fonts/FiraSans-Hair.woff') format('woff'),
          url('fonts/FiraSans-Hair.ttf') format('truetype');
     font-weight: 100;
@@ -14,8 +13,7 @@
 @font-face{
     font-family: 'FiraSans';
     src: url('fonts/FiraSans-HairItalic.eot');
-    src: local('Fira Sans Hair Italic'),
-         url('fonts/FiraSans-HairItalic.eot') format('embedded-opentype'),
+    src: url('fonts/FiraSans-HairItalic.eot?#iefix') format('embedded-opentype'),
          url('fonts/FiraSans-HairItalic.woff') format('woff'),
          url('fonts/FiraSans-HairItalic.ttf') format('truetype');
     font-weight: 100;
@@ -25,8 +23,7 @@
 @font-face{
     font-family: 'FiraSans';
     src: url('fonts/FiraSans-UltraLight.eot');
-    src: local('Fira Sans UltraLight'),
-         url('fonts/FiraSans-UltraLight.eot') format('embedded-opentype'),
+    src: url('fonts/FiraSans-UltraLight.eot?#iefix') format('embedded-opentype'),
          url('fonts/FiraSans-UltraLight.woff') format('woff'),
          url('fonts/FiraSans-UltraLight.ttf') format('truetype');
     font-weight: 200;
@@ -36,8 +33,7 @@
 @font-face{
     font-family: 'FiraSans';
     src: url('fonts/FiraSans-UltraLightItalic.eot');
-    src: local('Fira Sans UltraLight Italic'),
-         url('fonts/FiraSans-UltraLightItalic.eot') format('embedded-opentype'),
+    src: url('fonts/FiraSans-UltraLightItalic.eot?#iefix') format('embedded-opentype'),
          url('fonts/FiraSans-UltraLightItalic.woff') format('woff'),
          url('fonts/FiraSans-UltraLightItalic.ttf') format('truetype');
     font-weight: 200;
@@ -47,8 +43,7 @@
 @font-face{
     font-family: 'FiraSans';
     src: url('fonts/FiraSans-Light.eot');
-    src: local('Fira Sans Light'),
-         url('fonts/FiraSans-Light.eot') format('embedded-opentype'),
+    src: url('fonts/FiraSans-Light.eot?#iefix') format('embedded-opentype'),
          url('fonts/FiraSans-Light.woff') format('woff'),
          url('fonts/FiraSans-Light.ttf') format('truetype');
     font-weight: 300;
@@ -58,8 +53,7 @@
 @font-face{
     font-family: 'FiraSans';
     src: url('fonts/FiraSans-LightItalic.eot');
-    src: local('Fira Sans Light Italic'),
-         url('fonts/FiraSans-LightItalic.eot') format('embedded-opentype'),
+    src: url('fonts/FiraSans-LightItalic.eot?#iefix') format('embedded-opentype'),
          url('fonts/FiraSans-LightItalic.woff') format('woff'),
          url('fonts/FiraSans-LightItalic.ttf') format('truetype');
     font-weight: 300;
@@ -69,8 +63,7 @@
 @font-face{
     font-family: 'FiraSans';
     src: url('fonts/FiraSans-Regular.eot');
-    src: local('Fira Sans Regular'),
-         url('fonts/FiraSans-Regular.eot') format('embedded-opentype'),
+    src: url('fonts/FiraSans-Regular.eot?#iefix') format('embedded-opentype'),
          url('fonts/FiraSans-Regular.woff') format('woff'),
          url('fonts/FiraSans-Regular.ttf') format('truetype');
     font-weight: 400;
@@ -80,8 +73,7 @@
 @font-face{
     font-family: 'FiraSans';
     src: url('fonts/FiraSans-Italic.eot');
-    src: local('Fira Sans Regular Italic'),
-         url('fonts/FiraSans-Italic.eot') format('embedded-opentype'),
+    src: url('fonts/FiraSans-Italic.eot?#iefix') format('embedded-opentype'),
          url('fonts/FiraSans-Italic.woff') format('woff'),
          url('fonts/FiraSans-Italic.ttf') format('truetype');
     font-weight: 400;
@@ -90,10 +82,9 @@
 @font-face{
     font-family: 'FiraSans';
     src: url('fonts/FiraSans-Bold.eot');
-    src: local('Fira Sans Regular Bold'),
-    url('fonts/FiraSans-Bold.eot') format('embedded-opentype'),
-    url('fonts/FiraSans-Bold.woff') format('woff'),
-    url('fonts/FiraSans-Bold.ttf') format('truetype');
+    src: url('fonts/FiraSans-Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/FiraSans-Bold.woff') format('woff'),
+         url('fonts/FiraSans-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -101,8 +92,7 @@
 @font-face{
     font-family: 'FiraSans';
     src: url('fonts/FiraSans-Medium.eot');
-    src: local('Fira Sans Medium'),
-         url('fonts/FiraSans-Medium.eot') format('embedded-opentype'),
+    src: url('fonts/FiraSans-Medium.eot?#iefix') format('embedded-opentype'),
          url('fonts/FiraSans-Medium.woff') format('woff'),
          url('fonts/FiraSans-Medium.ttf') format('truetype');
     font-weight: 500;
@@ -112,8 +102,7 @@
 @font-face{
     font-family: 'FiraSans';
     src: url('fonts/FiraSans-MediumItalic.eot');
-    src: local('Fira Sans Medium Italic'),
-         url('fonts/FiraSans-MediumItalic.eot') format('embedded-opentype'),
+    src: url('fonts/FiraSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
          url('fonts/FiraSans-MediumItalic.woff') format('woff'),
          url('fonts/FiraSans-MediumItalic.ttf') format('truetype');
     font-weight: 500;
@@ -123,8 +112,7 @@
 @font-face{
     font-family: 'FiraSans';
     src: url('fonts/FiraSans-SemiBold.eot');
-    src: local('Fira Sans SemiBold'),
-         url('fonts/FiraSans-SemiBold.eot') format('embedded-opentype'),
+    src: url('fonts/FiraSans-SemiBold.eot?#iefix') format('embedded-opentype'),
          url('fonts/FiraSans-SemiBold.woff') format('woff'),
          url('fonts/FiraSans-SemiBold.ttf') format('truetype');
     font-weight: 600;
@@ -134,8 +122,7 @@
 @font-face{
     font-family: 'FiraSans';
     src: url('fonts/FiraSans-SemiBoldItalic.eot');
-    src: local('Fira Sans SemiBold Italic'),
-         url('fonts/FiraSans-SemiBoldItalic.eot') format('embedded-opentype'),
+    src: url('fonts/FiraSans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
          url('fonts/FiraSans-SemiBoldItalic.woff') format('woff'),
          url('fonts/FiraSans-SemiBoldItalic.ttf') format('truetype');
     font-weight: 600;
@@ -145,8 +132,7 @@
 @font-face{
     font-family: 'FiraSans';
     src: url('fonts/FiraSans-Bold.eot');
-    src: local('Fira Sans Bold'),
-         url('fonts/FiraSans-Bold.eot') format('embedded-opentype'),
+    src: url('fonts/FiraSans-Bold.eot?#iefix') format('embedded-opentype'),
          url('fonts/FiraSans-Bold.woff') format('woff'),
          url('fonts/FiraSans-Bold.ttf') format('truetype');
     font-weight: 700;
@@ -156,8 +142,7 @@
 @font-face{
     font-family: 'FiraSans';
     src: url('fonts/FiraSans-BoldItalic.eot');
-    src: local('Fira Sans Bold Italic'),
-         url('fonts/FiraSans-BoldItalic.eot') format('embedded-opentype'),
+    src: url('fonts/FiraSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
          url('fonts/FiraSans-BoldItalic.woff') format('woff'),
          url('fonts/FiraSans-BoldItalic.ttf') format('truetype');
     font-weight: 700;
@@ -167,8 +152,7 @@
 @font-face{
     font-family: 'FiraSans';
     src: url('fonts/FiraSans-ExtraBold.eot');
-    src: local('Fira Sans ExtraBold'),
-         url('fonts/FiraSans-ExtraBold.eot') format('embedded-opentype'),
+    src: url('fonts/FiraSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
          url('fonts/FiraSans-ExtraBold.woff') format('woff'),
          url('fonts/FiraSans-ExtraBold.ttf') format('truetype');
     font-weight: 800;
@@ -178,8 +162,7 @@
 @font-face{
     font-family: 'FiraSans';
     src: url('fonts/FiraSans-ExtraBoldItalic.eot');
-    src: local('Fira Sans ExtraBold Italic'),
-         url('fonts/FiraSans-ExtraBoldItalic.eot') format('embedded-opentype'),
+    src: url('fonts/FiraSans-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
          url('fonts/FiraSans-ExtraBoldItalic.woff') format('woff'),
          url('fonts/FiraSans-ExtraBoldItalic.ttf') format('truetype');
     font-weight: 800;
@@ -189,8 +172,7 @@
 @font-face{
     font-family: 'FiraSans';
     src: url('fonts/FiraSans-Heavy.eot');
-    src: local('Fira Sans Heavy'),
-         url('fonts/FiraSans-Heavy.eot') format('embedded-opentype'),
+    src: url('fonts/FiraSans-Heavy.eot?#iefix') format('embedded-opentype'),
          url('fonts/FiraSans-Heavy.woff') format('woff'),
          url('fonts/FiraSans-Heavy.ttf') format('truetype');
     font-weight: 900;
@@ -200,18 +182,13 @@
 @font-face{
     font-family: 'FiraSans';
     src: url('fonts/FiraSans-HeavyItalic.eot');
-    src: local('Fira Sans Heavy Italic'),
-         url('fonts/FiraSans-HeavyItalic.eot') format('embedded-opentype'),
+    src: url('fonts/FiraSans-HeavyItalic.eot?#iefix') format('embedded-opentype'),
          url('fonts/FiraSans-HeavyItalic.woff') format('woff'),
          url('fonts/FiraSans-HeavyItalic.ttf') format('truetype');
     font-weight: 900;
     font-style: italic;
 }
 
-/**
-font-family: 'Lato', sans-serif;
-font-family: 'Open Sans', sans-serif;
-**/
 body {
     font-family: 'FiraSans',"Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
