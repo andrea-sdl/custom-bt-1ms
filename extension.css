@@ -1,12 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700,300italic,400italic,500italic,700italic&subset=latin,cyrillic-ext,greek,vietnamese,latin-ext,cyrillic);
 
 body {
-    font-family: 'Fira Sans',"Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    font-weight:300;
+font-family: 'Fira Sans',"Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 16px;
+font-weight:300;
 }
 .container {
-	background-image:url("bg.png");
 	background-position:top left;
 	background-repeat:repeat-x;
 }
@@ -26,35 +25,21 @@ h6,
 .h4,
 .h5,
 .h6 {
-
     font-family: 'Fira Sans',"Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight:400;
 }
 
-
-.flexible-container,.div_google_map ,.div_you_tube{
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-}
-
+.flexible-container,.div_google_map ,.div_you_tube{position: relative;padding-bottom: 56.25%;padding-top: 30px;height: 0;overflow: hidden;}
 .flexible-container iframe,.div_google_map iframe, .div_you_tube iframe,
 .flexible-container object,.div_google_map object,  .div_you_tube object,
-.flexible-container embed ,.div_google_map embed, .div_you_tube embed{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+.flexible-container embed ,.div_google_map embed, .div_you_tube embed{position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
 
 #omsBannerDiv{margin-bottom:40px;}
 
 #insert_content{width:495px !important;}
 #insert_content .add_content_block {height:112px !important}
 .sidebar-btn{display:none}
+
 @media (max-width: 767px) {
   #Cart,.sidebar-btn, .sidebar_block.sidebar-show,#omsBannerDiv{display:block !important;}
   .sidebar-btn-show, .sidebar-btn-hide {
@@ -65,28 +50,22 @@ h6,
     font-size: 14px;
     margin-top: 20px !important;
     padding: 10px 0;
-    text-transform: uppercase;}
-  .sidebar-btn-show:hover, .sidebar-btn-hide:hover, .sidebar-btn-show:active, .sidebar-btn-hide:active {
-	  background-color:#e1e1e1;}
-  .sidebar_block,.sidebar-hide{
-    display: none !important;
+    text-transform: uppercase;
   }
+  .sidebar-btn-show:hover, .sidebar-btn-hide:hover, .sidebar-btn-show:active, .sidebar-btn-hide:active {
+	  background-color:#e1e1e1;
+  }
+  .sidebar_block,.sidebar-hide{display: none !important; }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   #Cart,.sidebar-btn, .sidebar_block.sidebar-show,#omsBannerDiv{display:block !important;}
-  .sidebar_block,.sidebar-hide {
-    display: none !important;
-  }
+  .sidebar_block,.sidebar-hide {display: none !important; }
 }
 
 
 /*stile*/
 
-.container  {
-	background-position:top left;
-	background-repeat:repeat-x;
-}
-
+.container  {background-position:top left;background-repeat:repeat-x;}
 
 /*menu*/
 .navbar {
@@ -98,15 +77,8 @@ h6,
 	box-shadow:0px 0px 2px rgba(51,51,51,0.25);
 }
 
-.navbar-default {
-	border:none;
-	border-radius:0px;
-}
-
-.navbar-nav {
-	text-transform:uppercase;
-	font-size:16px;
-}
+.navbar-default {border:none;border-radius:0px;}
+.navbar-nav {text-transform:uppercase;font-size:16px;}
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	background-color:transparent;
@@ -118,7 +90,6 @@ h6,
 	color:#f13d49;
 }
 
-
 /*immagine e titolo sito*/
 .container .jumbotron {
 	background-size:cover;
@@ -129,45 +100,15 @@ h6,
 	margin-top:50px;
 }
 
-.company-data {
-	padding:60px 20px;
-	height:300px;
-	text-align:center;
-}
-
-.title-jumbo {
-	display:block;
-	word-wrap:break-word;
-	padding-top:10px;
-}
-
-.title-jumbo a {
-	font-size:40px;
-	font-family: 'Fira Sans', sans-serif;
-	font-weight:400;
-	color:#fff;
-	text-transform:uppercase;
-	line-height:1.4em;
-}
-
-.title-jumbo a:hover {
-	text-decoration:none;
-}
-
-.jumbotron p {
-	margin-bottom:0px !important;
-	color:#fff;
-}
-
-.logo-img a img {
-	max-height:80px;
-}
+.company-data {padding:60px 20px;height:300px;text-align:center;}
+.title-jumbo {display:block;word-wrap:break-word;padding-top:10px;}
+.title-jumbo a {font-size:40px;font-family: 'Fira Sans', sans-serif;font-weight:400;color:#fff;text-transform:uppercase;line-height:1.4em;}
+.title-jumbo a:hover {text-decoration:none;}
+.jumbotron p {margin-bottom:0px !important;color:#fff;}
+.logo-img a img {max-height:80px;}
 
 /*overlay per top-image*/
-.top-image-1 .company-data {
-	background:rgba(0,0,0,0.25);
-	text-shadow:1px 1px 0px rgba(51,51,51,0.25)
-}
+.top-image-1 .company-data {background:rgba(0,0,0,0.25);text-shadow:1px 1px 0px rgba(51,51,51,0.25)}
 
 
 /*posizione logo*/
@@ -623,13 +564,7 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
 .div_you_tube .object_content iframe,
 .div_you_tube .object_content object,
 .div_you_tube .object_content embed, .div_google_map .object_content iframe, .div_google_map .object_content object,
-.div_google_map .object_content embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+.div_google_map .object_content embed {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
 
 
 /*ecommerce*/
@@ -651,8 +586,6 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
 .product_ttil .category-product .product_price span {
 	color:#f13d49;
 }
-
-
 
 /*ecommerce responsive*/
 @media (max-width: 568px) {
