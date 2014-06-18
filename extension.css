@@ -601,7 +601,10 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
     margin-right: 0px;
 }
 
-
+.itemContainer .itemPrice {color: #f13d49;}
+.itemContainer .itemRemove a{color:#f13d49;}
+#Cart .total.final_total span{color: #f13d49;}
+.product-catalog-view-list .product-item .product-price span {color:#f13d49;}
 /*responsive style google map e video*/
 .div_you_tube .object_content, .div_google_map .object_content {
     position: relative;

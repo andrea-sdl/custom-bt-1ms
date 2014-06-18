@@ -101,7 +101,7 @@
     float:left;
     font-size: 1.4em;
     font-weight: 400;
-    color: #f13d49;
+    color: #920d0c;
     text-align: left;
     min-height:30px;
     line-height:30px;
@@ -148,7 +148,7 @@
 }
 
 .itemContainer .itemRemove a{
-    color:#f13d49;
+    color:#920d0c;
     display: block;
     text-align: right;
     font-size: 0.8em;
@@ -199,7 +199,7 @@
 }
 
 #Cart .total.final_total span{
-    color: #f13d49;
+    color: #920d0c;
     font-size: 18px;
 	font-size:18px;
 }
@@ -424,7 +424,6 @@ body.sidebar-0 .product-catalog-view-grid .product-item{
 }
 
 .product-catalog-view-list .product-item .product-price span {
-	color:#f13d49;
 	font-weight:400;
 	font-size:20px;
 }
@@ -440,14 +439,6 @@ body.sidebar-0 .product-catalog-view-grid .product-item{
 	text-transform:uppercase;
     min-height:35px;
     line-height:35px;
-}
-
-.product-item .product-add-to-cart .btn-default{
-    color:#ffffff;
-    text-decoration:none;
-	background-color:#FF5A65;
-	border:none;
-	box-shadow:0 -2px 0 #F13D49 inset;
 }
 
 .product-catalog-view-list .product-item .product-add-to-cart a{
