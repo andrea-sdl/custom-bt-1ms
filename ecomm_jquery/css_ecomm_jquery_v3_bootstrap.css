@@ -86,14 +86,11 @@
 }
 
 .itemContainer .itemAttributes span {
-    float:left;
-    font-size:14px;
-    font-weight:300;
-    background-color:#f8f8f8;
-    border-radius:10px;
-    padding:0px 10px 2px;
-    border:1px solid #e8e8e8;
-    box-shadow:1px 1px 3px #eee inset;
+	color: #939393;
+    float: left;
+    font-size: 13px;
+    font-weight: 200;
+    text-transform: uppercase;
 }
 
 .itemContainer .itemPrice {
@@ -101,7 +98,6 @@
     float:left;
     font-size: 1.4em;
     font-weight: 400;
-    color: #920d0c;
     text-align: left;
     min-height:30px;
     line-height:30px;
@@ -148,15 +144,10 @@
 }
 
 .itemContainer .itemRemove a{
-    color:#920d0c;
     display: block;
     text-align: right;
     font-size: 0.8em;
 	text-transform:uppercase;
-}
-
-.itemContainer .itemRemove .itemdecrement .itemincrement a{
-    color:#920d0c;
 }
 
 .itemContainer .product-image{
@@ -199,7 +190,6 @@
 }
 
 #Cart .total.final_total span{
-    color: #920d0c;
     font-size: 18px;
 	font-size:18px;
 }
@@ -219,6 +209,7 @@
 
 
 /*cart headers*/
+
 
 div.itemId,
 div.itemMaxquantity{
