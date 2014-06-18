@@ -461,7 +461,7 @@ body.sidebar-0 .product-catalog-view-grid .product-item{
 }
 
 .product_ttil .category-product .product-attributes {
-	width:50%;
+	width:100%;
 	float:left;
 }
 
@@ -469,24 +469,24 @@ body.sidebar-0 .product-catalog-view-grid .product-item{
 	border: 1px solid #E1E1E1;
     border-radius: 4px;
     padding: 2px;
-    width: 75%;
+    width: 50%;
 }
 
 .product_ttil .category-product .product_quantity {
 	float:left;
-	width:50%;
-	text-align:right;
+	width:100%;
+	text-align:left;
 	font-size:14px;
 	text-transform:uppercase;
 	color:#939393;
-	line-height:35px;
+	padding:10px 0px 0px 0px;
 }
 
 .product_ttil .category-product .product_price {
 	float:left;
 	width:100%;
 	text-align:right;
-	margin-bottom:20px;
+	margin-bottom:10px;
 }
 
 .product_ttil .category-product .product_price span {
