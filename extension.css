@@ -662,5 +662,5 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
 }
 @media (min-width: 992px) and (max-width: 1200px) {
 #Cart .carrello_icon_sidebar {float: none; margin: 0 auto;}
-#Cart .top_sidebar h2 {line-height: normal; padding-top: 20px; padding-left:0px; text-align: center;}
+#Cart .top_sidebar h2 {line-height: normal; padding-top: 20px; padding-left:0px; text-align: center; width:100%;}
 }
