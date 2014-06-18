@@ -269,7 +269,6 @@ ul {
 	background-repeat: no-repeat;
 	background-color: #f1f1f1;
     border-radius: 4px;
-    box-shadow: inset 0 -2px 0px rgba(0, 0, 0, 0.3);
     color: #333333;
     float: left;
     font-size: 16px;
@@ -282,7 +281,6 @@ ul {
 .div_ttdl a:hover {
 	background-color: #F13D49;
     border-radius: 4px;
-    box-shadow: inset 0 -2px 0px rgba(0, 0, 0, 0.3);
     color: #fff;
     float: left;
     font-size: 16px;
@@ -371,7 +369,6 @@ form table .scf_label .scf_button {
 	background-color:#F13D49;
 	color:#ffffff;
 	opacity:1;
-	box-shadow:inset 0 -2px 0px #d24847;
 	padding:0px 30px;
 	font-weight:400;
 	border-radius:4px;
@@ -664,6 +661,6 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
     .ui-dialog{top: 0px !important; left: 0px !important; width: 100% !important;font-size:16px }
     .ui-dialog input,.ui-dialog select{font-size:16px }
 }
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 975px) and (max-width: 1200px) {
 #Cart .carrello_icon_sidebar {float: none; margin: 0 auto;}
 }
