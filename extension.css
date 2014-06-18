@@ -67,7 +67,7 @@ h6,
     padding: 10px 0;
     text-transform: uppercase;}
   .sidebar-btn-show:hover, .sidebar-btn-hide:hover, .sidebar-btn-show:active, .sidebar-btn-hide:active {
-	  background-color:#f13d49;}
+	  background-color:#e1e1e1;}
   .sidebar_block,.sidebar-hide{
     display: none !important;
   }
@@ -665,6 +665,7 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
 	
 	.product-catalog-view-grid .product-item .product_info {text-align:center;}
 	.product_ttil .category-product .product-attributes, .product_ttil .category-product .product-attributes select, .product_ttil .category-product .product_quantity {width:100%;}
+	h3 {font-size:36px;}
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .product-catalog-view-grid .product-item{width:48%}
