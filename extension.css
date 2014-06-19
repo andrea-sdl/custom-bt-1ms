@@ -642,3 +642,11 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
     line-height: 1.33;
     border-radius: 6px;
 }
+
+/** trasparenze **/
+#main-nav-menu-div .navbar{ background:rgba(255, 255, 255, 0.91) }
+@media (max-width: 991px) {
+    #main-nav-menu-div .navbar-collapse {
+        background: rgba(255, 255, 255, 0.9)
+    }
+}
