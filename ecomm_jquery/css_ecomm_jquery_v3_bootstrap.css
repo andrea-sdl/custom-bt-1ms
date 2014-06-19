@@ -481,11 +481,11 @@ body.sidebar-0 .product-catalog-view-grid .product-item {
     text-align: right;
 }
 
-/*SCHEDA PRODOTTO BELLA*/
 
+/*SCHEDA PRODOTTO BELLA*/
 .product-ttil-advanced.product_ttil .product-image {
     text-align: center;
-    width: 35%;
+    width: 50%;
     margin: 0px 2% 10px 0px;
     float: left;
     overflow: hidden;
@@ -499,33 +499,39 @@ body.sidebar-0 .product-catalog-view-grid .product-item {
 }
 
 .product-ttil-advanced.product_ttil .div_product_gallery {
-    overflow: hidden;
-    margin-top: 10px;
+    clear: both;
     float: left;
+    margin: 10px 2% 0 0;
+    overflow: hidden;
+    width: 50%;
+}
+
+.product-ttil-advanced.product_ttil .div_product_gallery a{
+	margin:0px 4px 4px 0px;
 }
 
 .product-ttil-advanced.product_ttil .div_product_gallery img {
-    height: 40px;
+    height: 80px;
 }
 
 .product-ttil-advanced.product_ttil .product-description {
     display: block;
     float: left;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .product-ttil-advanced .category-product {
-    padding: 0px 2% 20px;
-    width: 58%;
+    padding: 20px;
+    width: 48%;
     float: left;
 }
 
 .product-ttil-advanced .category-product h3 {
     margin: 0px 0px 10px;
-    font-size: 20px;
-    font-weight: 600;
-    color: #4D4D4D;
+    font-size: 24px;
+    font-weight: 400;
+    color: #333;
     float: left;
     width: 100%;
 }
@@ -534,7 +540,7 @@ body.sidebar-0 .product-catalog-view-grid .product-item {
     line-height: normal;
     overflow: hidden;
     width: 100%;
-    color: #4d4d4d;
+    color: #333;
 }
 
 .product-ttil-advanced .category-product .product_code {
@@ -549,14 +555,14 @@ body.sidebar-0 .product-catalog-view-grid .product-item {
 
 .product-ttil-advanced .category-product .product-attributes {
     float: left;
-    margin-bottom: 20px;
     width: 100%;
 }
 
 .product-ttil-advanced .category-product .product-attributes select {
-    float: left;
-    padding: 4px;
-    border: 1px solid #d1d1d1;
+	border: 1px solid #E1E1E1;
+    border-radius: 4px;
+    padding: 2px;
+    width: 75%;
 }
 
 .product-ttil-advanced .category-product .product-attributes select option {
@@ -564,27 +570,27 @@ body.sidebar-0 .product-catalog-view-grid .product-item {
 }
 
 .product-ttil-advanced .category-product .product_quantity {
-    display: block;
+	color: #939393;
     float: left;
-    font-weight: normal;
-    padding: 10px 0px;
+    font-size: 14px;
+    padding: 10px 0 0;
     text-align: right;
-    font-size: 13px;
+    text-transform: uppercase;
     width: 100%;
-    clear: both;
 }
 
 .product-ttil-advanced .category-product .product_price {
     display: block;
     float: left;
     padding: 0px;
-    text-align: left;
+    text-align: right;
     width: 100%;
-    color: #740B0B;
-    font-size: 22px;
-    line-height: 32px;
-    font-weight: 600;
-    margin-bottom: 20px;
+    margin: 20px 0px 10px;
+}
+
+.product-ttil-advanced.product_ttil .category-product .product_price span {
+    font-size: 24px;
+    font-weight: 400;
 }
 
 .product-ttil-advanced .category-product .product_price .price-vat {
