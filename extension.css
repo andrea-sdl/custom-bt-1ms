@@ -374,14 +374,15 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
 	max-width:240px;
 }
 
+.company-data, .container .jumbotron {height:auto;}
+
+.title-jumbo a {font-size:28px;	line-height:1.2em;}
+
+.jumbotron p {font-size:18px;}
+
 .company-data.logo-3 {
 	padding-left:20px;
 	text-align:center;
-}
-
-.title-jumbo a {
-	font-size:36px;
-	line-height:1.2em;
 }
 
 .company-data.logo-4 {
