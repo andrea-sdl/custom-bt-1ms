@@ -261,11 +261,11 @@ ul {
 
 .camera_prev, .camera_next, .camera_commands {top: 40%;}
 
-.camera_caption > div {background: none repeat scroll 0 0 rgba(51, 51, 51, 0.75); font-size: 15px; padding: 15px 20px;}
+.camera_caption > div {background: none repeat scroll 0 0 rgba(51, 51, 51, 0.75) !important; font-size: 15px; padding: 15px 20px !important;}
 
-.camera_wrap .camera_pag .camera_pag_ul li {background-color:#e1e1e1;}
+.camera_wrap .camera_pag .camera_pag_ul li {background-color:#e1e1e1 !important;}
 
-.camera_wrap .camera_pag .camera_pag_ul li.cameracurrent > span {background: none repeat scroll 0 0 #333;}
+.camera_wrap .camera_pag .camera_pag_ul li.cameracurrent > span {background: none repeat scroll 0 0 #333 !important;}
 
 
 /*form*/
