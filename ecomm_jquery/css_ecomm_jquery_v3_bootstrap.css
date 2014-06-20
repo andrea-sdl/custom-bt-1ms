@@ -550,7 +550,7 @@ body.sidebar-0 .product-catalog-view-grid .product-item {
     float: left;
     text-align: left;
     width: 100%;
-    font-size: 11px;
+    font-size: 12px;
     margin-bottom: 10px
 }
 
@@ -651,10 +651,7 @@ root {
 .ui-message-form .input_row {
     background: none repeat scroll 0 0 transparent;
     border: medium none;
-    color: #404040;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 22px;
+    color: #333;
     margin: 0;
     padding: 0px;
     vertical-align: middle;
@@ -662,12 +659,11 @@ root {
 
 .ui-message-form select {
     background: none repeat scroll 0 0 #FFFFFF;
-    color: #000000;
-    font-family: 'Segoe UI', Tahoma, Geneva, Arial, Helvetica, sans-serif;
-    width: 270px;
-    min-height: 40px;
-    border: 1px solid #E8E8E8;
-    padding: 5px;
+    color: #333;
+    width: 90%;
+    border: 1px solid #e1e1e1;
+    padding: 4px;
+	border-radius:4px;
 }
 
 .ui-message-dialog .ui-widget-header {
@@ -684,32 +680,29 @@ root {
 }
 
 .ui-message-form .input_row .input_label {
-    margin-top: 0px !important;
-    color: #000000;
+    color: #333;
+	font-size:15px;
 }
 
 #fe_payment_method {
 
     display: block;
-    height: 20px;
     left: 10px;
-    width: auto;
-    margin-top: 15px;
+    width: 90%;
 }
 
 .ui-message-form .input_row input {
     background: #fff !important;
-    font-family: 'Segoe UI', Tahoma, Geneva, Arial, Helvetica, sans-serif !important;
-    width: 266px !important;
-    color: #000000;
-    border: 1px solid #E8E8E8;
+    width: 90%;
+    color: #333;
+    border: 1px solid #e1e1e1;
+	padding:4px;
 }
 
 .ui-message-form .input_row label {
     color: red;
     float: right;
     margin-right: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Arial, Helvetica, sans-serif !important;
     font-size: 16px !important;
 }
 
