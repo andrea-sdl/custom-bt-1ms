@@ -79,6 +79,7 @@ h6,
 
 .navbar-default {border:none;border-radius:0px;}
 .navbar-nav {text-transform:uppercase;font-size:16px;}
+.nav > li {padding:0px 10px;}
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	background-color:transparent;
@@ -187,7 +188,7 @@ h1 {
 }
 
 .h2_ttil {
-	font-size:36px;
+
 	line-height:34px;
 	color:#333;
 	margin-bottom:40px;
@@ -589,10 +590,11 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
 }
 
 /*ecommerce responsive*/
-@media (max-width: 568px) {
-.product_ttil img {width:100%;}
+@media (max-width: 640px) {
+.product-ttil-default.product_ttil img, .product-ttil-advanced .category-product, .product-ttil-advanced.product_ttil .div_product_gallery {width:100%;}
+.product-ttil-advanced.product_ttil .product-image {width:100%;}
 .product_ttil .product-add-to-cart .btn-primary {display:block;}
-.product_ttil .category-product .product_price {margin-top:10px;}
+.product_ttil .category-product .product_price, .product-ttil-advanced .category-product {margin-top:10px;}
 }
 @media (max-width: 767px) {
     .product-catalog-view-grid .product-item{width:100%}
@@ -631,8 +633,8 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
     .ui-dialog input,.ui-dialog select{font-size:16px }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
-#Cart .carrello_icon_sidebar {float: none; margin: 0 auto;}
-#Cart .top_sidebar h2 {line-height: normal; padding-top: 20px; padding-left:0px; text-align: center; width:100%;}
+	#Cart .carrello_icon_sidebar {float: none; margin: 0 auto;}
+	#Cart .top_sidebar h2 {line-height: normal; padding-top: 20px; padding-left:0px; text-align: center; width:100%;}
 }
 
 /** da rimuovere se mettiamo nel less al pari di btn-lg**/
