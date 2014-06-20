@@ -512,6 +512,7 @@ body.sidebar-0 .product-catalog-view-grid .product-item {
 
 .product-ttil-advanced.product_ttil .div_product_gallery img {
     height: 80px;
+	width:auto;
 }
 
 .product-ttil-advanced.product_ttil .product-description {
@@ -608,6 +609,7 @@ body.sidebar-0 .product-catalog-view-grid .product-item {
 
 .product-ttil-advanced .category-product .product-add-to-cart a {
     float: right;
+	white-space:normal;
 }
 
 /*FORM*/
