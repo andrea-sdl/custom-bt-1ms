@@ -224,31 +224,48 @@ ul {
 /*allegato*/
 .div_ttdl a {
 	background-repeat: no-repeat;
-	background-color: #f1f1f1;
+	background-color: #fff;
     border-radius: 4px;
-    color: #333333;
+    color: #f13d49;
     float: left;
     font-size: 16px;
-    line-height: 40px;
+	font-weight:400;
+    line-height: 30px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
 	word-break:break-all;
+	border: 1px solid #e1e1e1;
 }
 
-.div_ttdl a:hover {
-	background-color: #F13D49;
+.div_ttdl a:hover, .div_ttdl a:active {
+	background-color: #f13d49;
     border-radius: 4px;
     color: #fff;
     float: left;
     font-size: 16px;
-    line-height: 40px;
+    line-height: 30px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+	border: 1px solid #f13d49;
 }
 
 .div_ttdl a img {
 	display:none;
 }
+
+
+/*slider*/
+.camera_prevThumbs, .camera_nextThumbs, .camera_prev, .camera_next, .camera_commands, .camera_thumbs_cont {background: none repeat scroll 0 0 rgba(255, 255, 255, 0.75);}
+
+.camera_prevThumbs, .camera_nextThumbs, .camera_prev, .camera_next, .camera_commands, .camera_thumbs_cont {border-radius: 4px; margin: 0 10px;}
+
+.camera_prev, .camera_next, .camera_commands {top: 40%;}
+
+.camera_caption > div {background: none repeat scroll 0 0 rgba(51, 51, 51, 0.75); font-size: 15px; padding: 15px 20px;}
+
+.camera_wrap .camera_pag .camera_pag_ul li {background: none repeat scroll 0 0 #e1e1e1;}
+
+.camera_wrap .camera_pag .camera_pag_ul li.cameracurrent > span {background: none repeat scroll 0 0 #333;}
 
 
 /*form*/
@@ -395,6 +412,8 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
 .breadcrumb {
 	display:none;
 }
+
+.div_ttdl a {width:100%; text-align:center;}
 
 .col-sm-9 {
 	padding-top:30px;
@@ -602,7 +621,7 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
 	
 	.product-catalog-view-grid .product-item .product_info {text-align:center;}
 	.product_ttil .category-product .product-attributes, .product_ttil .category-product .product-attributes select, .product_ttil .category-product .product_quantity {width:100%;}
-	h3 {font-size:36px;}
+	h3 {font-size:30px;}
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .product-catalog-view-grid .product-item{width:48%}
