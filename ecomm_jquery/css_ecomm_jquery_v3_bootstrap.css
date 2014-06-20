@@ -629,6 +629,10 @@ root {
     position: relative;
 }
 
+.ui-message-dialog {
+	padding:1em;
+}
+
 .ui-message-dialog .ui-widget-header {
     background: none !important;
     border: none !important;
@@ -648,7 +652,7 @@ root {
     background-color: white;
 }
 
-.ui-message-form .input_row {
+.ui-message-form .>_row {
     background: none repeat scroll 0 0 transparent;
     border: medium none;
     color: #333;
@@ -664,17 +668,18 @@ root {
     border: 1px solid #e1e1e1;
     padding: 4px;
 	border-radius:4px;
+	font-size:15px;
 }
 
 .ui-message-dialog .ui-widget-header {
     background: none !important;
     border: none !important;
-    width: 259px !important;
+    width: 100% !important;
 }
 
 #orderSuccess p {
-    margin-left: 107px;
-    width: 150px;
+    padding-left: 25%;
+    width: 100%;
     font-size: 16px;
     position: relative;
 }
@@ -689,6 +694,7 @@ root {
     display: block;
     left: 10px;
     width: 90%;
+	font-size:15px;
 }
 
 .ui-message-form .input_row input {
@@ -697,13 +703,15 @@ root {
     color: #333;
     border: 1px solid #e1e1e1;
 	padding:4px;
+	font-size:15px;
 }
 
 .ui-message-form .input_row label {
     color: red;
     float: right;
-    margin-right: 10px;
-    font-size: 16px !important;
+    margin: 10px;
+    font-size: 15px !important;
+	font-weight:normal;
 }
 
 #metodo_pagamento {
@@ -711,7 +719,7 @@ root {
     margin-bottom: 30px !important;
 }
 
-#form_privacy {
+#form_privacy .input_label {
     font-size: 10px !important;
     line-height: 12px;
 }
@@ -729,7 +737,9 @@ root {
 
 .ui-widget-content a.bottone_ordina {
     color: #fff;
-    clear: both
+    clear: both;
+	float: left;
+    margin: 0 0 10px;
 }
 
 /*========== stile gallery ==========*/
