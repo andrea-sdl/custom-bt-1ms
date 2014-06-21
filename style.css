@@ -1,6 +1,5 @@
 /* CSS crunched with Crunch - http://crunchapp.net/ */
-/*@import url(http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700,300italic,400italic,500italic,700italic&subset=latin,cyrillic-ext,greek,vietnamese,latin-ext,cyrillic);*/
-@import url(http://brick.a.ssl.fastly.net/Fira+Sans:300,400,500,700,300i,400i,500i,700i);
+@import url(http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700,300italic,400italic,500italic,700italic&subset=latin,cyrillic-ext,greek,vietnamese,latin-ext,cyrillic);
 @import url(http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
@@ -5925,6 +5924,9 @@ h6,
   margin-top: 50px;
   background-color: #f13d49;
 }
+.logo-wrapper {
+  padding: 0px 45px;
+}
 .company-data {
   padding: 60px 20px;
   height: 300px;
@@ -5952,6 +5954,7 @@ h6,
 }
 .company-data a img {
   max-height: 80px;
+  width: auto !important;
 }
 /*overlay per top-image*/
 .top-image-1 .company-data {
@@ -5966,11 +5969,9 @@ h6,
 }
 .company-data.logo-3 {
   text-align: left;
-  padding-left: 60px;
 }
 .company-data.logo-4 {
   text-align: right;
-  padding-right: 60px;
 }
 /*submenu*/
 #menu_2 {
@@ -6242,7 +6243,7 @@ form table .scf_label .scf_button:active {
 @media (min-width: 768px) {
   .container .container-fluid,
   .container .row {
-    width: 750px;
+    width: 738px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -6285,7 +6286,7 @@ form table .scf_label .scf_button:active {
 @media (min-width: 992px) {
   .container .container-fluid,
   .container .row {
-    width: 970px;
+    width: 962px;
     margin-left: auto;
     margin-right: auto;
   }
