@@ -1,9 +1,9 @@
 
 body {
-  font-family: 'Fira Sans',"Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; font-weight:300;}
+  font-family: @base-font; font-size: @base-font-size; font-weight:@base-font-weight;}
 .container {background-position:top left; background-repeat:repeat-x;}
-.col-1,.col-2{font-weight:300; margin-bottom:40px;}
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {font-family: 'Fira Sans',"Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:400;}
+.col-1,.col-2{font-weight:@base-font-weight; margin-bottom:40px;}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {font-family: @base-font; font-weight:@normal-font-weight;}
 
 .flexible-container,.div_google_map ,.div_you_tube{position: relative;padding-bottom: 56.25%;padding-top: 30px;height: 0;overflow: hidden;}
 .flexible-container iframe,.div_google_map iframe, .div_you_tube iframe, .flexible-container object,.div_google_map object,  .div_you_tube object, .flexible-container embed ,.div_google_map embed, .div_you_tube embed{position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
@@ -32,8 +32,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {font-family: 'Fira Sans',"
 /*menu*/
 .navbar {margin-bottom:0px;	position:fixed;	width:100%;	background-color:#fff;	z-index:1000; box-shadow:0px 0px 2px rgba(51,51,51,0.25);}
 .navbar-default {border:none;border-radius:0px;}
-.navbar-nav {text-transform:uppercase;font-size:16px;}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { background-color:transparent; font-weight:400;
+.navbar-nav {text-transform:uppercase;font-size:@base-font-size;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { background-color:transparent; font-weight:@normal-font-weight;
   color:@brand-primary;
 }
 
@@ -42,14 +42,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {font-family: 'Fira Sans',"
 }
 
 /*immagine e titolo sito*/
-.container .jumbotron { background-size:cover; border-radius:0px; padding:0px; height:300px; margin-top:50px;
+.container .jumbotron { background-size:cover; border-radius:0px; padding:0px; height:@base-font-size; margin-top:50px;
 
   background-color:@brand-primary;
 }
 
-.company-data {padding:60px 20px; height:300px; text-align:center;}
+.company-data {padding:60px 20px; height:@base-font-size; text-align:center;}
 .title-jumbo {display:block; word-wrap:break-word; padding-top:10px;}
-.title-jumbo a {font-size:40px; font-family: 'Fira Sans', sans-serif; font-weight:400; color:#fff; text-transform:uppercase; line-height:1.4em;}
+.title-jumbo a {font-size:40px; font-family: 'Fira Sans', sans-serif; font-weight:@normal-font-weight; color:#fff; text-transform:uppercase; line-height:1.4em;}
 .title-jumbo a:hover {text-decoration:none;}
 .jumbotron p {margin-bottom:0px !important; color:#fff;}
 .company-data a img {max-height:80px;}
@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {font-family: 'Fira Sans',"
 
 /*submenu*/
 #menu_2 {margin-bottom:40px;}
-#menu_2 li a {padding:0px 20px 0px;	border-radius:4px; color:#333; font-size:16px; margin-top:-1px;}
+#menu_2 li a {padding:0px 20px 0px;	border-radius:4px; color:#333; font-size:@base-font-size; margin-top:-1px;}
 #menu_2 li a>span {display:block; padding:9px 0px 7px; border-bottom: 1px solid #e1e1e1;}
 #menu_2 li a:hover, #menu_2 li a:focus {background-color:#e1e1e1; color:#000;}
 
@@ -98,7 +98,7 @@ ul {list-style:circle outside;}
 
 
 /*allegato*/
-.div_ttdl a {background-repeat: no-repeat;background-color: #fff; border-radius: 4px;float: left; font-size: 16px;font-weight:400;line-height: 30px; padding: 10px 20px 10px 20px; text-decoration: none;	word-break:break-all;border: 1px solid #e1e1e1;
+.div_ttdl a {background-repeat: no-repeat;background-color: #fff; border-radius: 4px;float: left; font-size: 16px;font-weight:@normal-font-weight;line-height: 30px; padding: 10px 20px 10px 20px; text-decoration: none;	word-break:break-all;border: 1px solid #e1e1e1;
 
   color: @brand-primary;
 }
@@ -125,7 +125,7 @@ input, textarea {width:90%;	min-height:30px;border:1px solid #ccc;border-radius:
 .form_privacy {overflow:hidden;}
 .form_privacy input, .form_privacy p {float:left;}
 .form_privacy p {width:90%;	padding:8px;font-size:10px;	line-height:12px;}
-#invia {border:none;color:#ffffff;padding:5px 30px;	border-radius:4px;font-size:18px;font-weight:400;text-transform:uppercase;float:right;margin-right:10%;margin-bottom:40px;
+#invia {border:none;color:#ffffff;padding:5px 30px;	border-radius:4px;font-size:18px;font-weight:@normal-font-weight;text-transform:uppercase;float:right;margin-right:10%;margin-bottom:40px;
 
   background-color:@brand-primary;
 }
@@ -139,7 +139,7 @@ form table {width:100%;}
 form table td input {margin-bottom:10px;}
 form table td .scf_button {background-color: rgba(0, 0, 0, 0); border: medium none; font-size: 14px; opacity: 0.5;text-align: right; text-transform: uppercase;}
 form table td .scf_button:hover {opacity:1;}
-form table .scf_label .scf_button {width:auto;float:right;margin-right:10%;color:#ffffff;opacity:1;	padding:0px 30px;font-weight:400;border-radius:4px;
+form table .scf_label .scf_button {width:auto;float:right;margin-right:10%;color:#ffffff;opacity:1;	padding:0px 30px;font-weight:@normal-font-weight;border-radius:4px;
 
   background-color:@brand-primary;
 }
@@ -152,11 +152,6 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
 /*footer*/
 .container .footer-row {background-color:#2a2a2a;padding-top:50px;	padding-bottom:40px;color:#fff;}
 .container .footer-row a {color:#fff;}
-
-
-/*bottoni*/
-.btn-lg, .btn-group-lg > .btn {border-radius: 4px;font-weight: 400;line-height: 0.33;text-transform: uppercase;}
-.btn-primary {border: medium none;}
 
 
 /*stili responsive*/
@@ -270,8 +265,8 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
   .product-catalog-view-list .product-item .product-price, .product-catalog-view-list .product-item .product-quantity{width:100%; clear:both;padding:0px;text-align:center}
   .product-catalog-view-list .product-item .product-add-to-cart{display:block; width:100%;margin-top:15px;}
   .product-catalog-view-list .product-item .product-add-to-cart a, .product-catalog-view-grid .product-item .product-add-to-cart a {display:block; float:none;}
-  .ui-dialog{top: 0px !important; left: 0px !important; width: 100% !important;font-size:16px }
-  .ui-dialog input,.ui-dialog select{font-size:16px }
+  .ui-dialog{top: 0px !important; left: 0px !important; width: 100% !important;font-size:@base-font-size }
+  .ui-dialog input,.ui-dialog select{font-size:@base-font-size }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
   #Cart .carrello_icon_sidebar {float: none; margin: 0 auto;}
