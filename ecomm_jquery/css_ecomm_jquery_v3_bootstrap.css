@@ -623,8 +623,6 @@ root {
 }
 
 #orderSuccess p {
-    margin-left: 107px;
-    width: 150px;
     font-size: 15px;
     position: relative;
 }
@@ -695,10 +693,11 @@ root {
 }
 
 #orderSuccess p {
-    padding-left: 25%;
+    padding-left: 45%;
     width: 100%;
     font-size: 16px;
     position: relative;
+	min-height:90px;
 }
 
 .ui-message-form .input_row .input_label {
