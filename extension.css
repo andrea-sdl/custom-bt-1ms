@@ -1,5 +1,5 @@
 /*@import url(http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700,300italic,400italic,500italic,700italic&subset=latin,cyrillic-ext,greek,vietnamese,latin-ext,cyrillic);*/
-@import url("fonts/fira.css");
+@import url("http://andrea-sdl.github.io/custom-bt-1ms/fonts/fira.css");
 
 body {
 font-family: 'Fira Sans';
@@ -620,7 +620,6 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
 	
 	.product-catalog-view-grid .product-item .product_info {text-align:center;}
 	.product_ttil .category-product .product-attributes, .product_ttil .category-product .product-attributes select, .product_ttil .category-product .product_quantity {width:100%;}
-	> {font-size:30px;}
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .product-catalog-view-grid .product-item{width:48%}
