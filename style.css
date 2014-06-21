@@ -6526,7 +6526,6 @@ form table .scf_label .scf_button:active {
     width: 100%;
   }
 }
-/** da rimuovere se mettiamo nel less al pari di btn-lg**/
 /** trasparenze **/
 #main-nav-menu-div.navbar {
   background: rgba(255, 255, 255, 0.97);
