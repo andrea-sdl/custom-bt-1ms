@@ -634,10 +634,10 @@ root {
 }
 
 .ui-dialog {
-	padding: 0.5em;
+	padding: 0.5em !important;
 }
 
-ui-dialog .ui-widget-header {
+.ui-dialog .ui-widget-header {
 	background-color: #fafafa;
     background-image: none;
     border-color: #e1e1e1;
@@ -685,7 +685,7 @@ ui-dialog .ui-widget-header {
     padding: 6px 4px 2px;
 	border-radius:4px;
 	font-size:15px;
-	font-family:'Fira Sans',"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family:'Fira Sans',"Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
 .ui-message-dialog .ui-widget-header {
