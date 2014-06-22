@@ -5977,7 +5977,7 @@ h6,
 }
 /*bandierine multilingua*/
 .LanguageSwitcher {
-  position: fixed;
+  position: fixed !important;
   right: 0;
 }
 /*submenu*/
