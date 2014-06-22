@@ -5803,8 +5803,8 @@ h6,
   font-weight: 400;
 }
 .flexible-container,
-.div_google_map,
-.div_you_tube {
+.div_google_map .object_content,
+.div_you_tube .object_content {
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 30px;
@@ -5812,14 +5812,14 @@ h6,
   overflow: hidden;
 }
 .flexible-container iframe,
-.div_google_map iframe,
-.div_you_tube iframe,
-.flexible-container object,
-.div_google_map object,
-.div_you_tube object,
-.flexible-container embed,
-.div_google_map embed,
-.div_you_tube embed {
+.div_google_map .object_content iframe,
+.div_you_tube .object_content iframe,
+.flexible-container .object_content object,
+.div_google_map .object_content object,
+.div_you_tube .object_content object,
+.flexible-container .object_content embed,
+.div_google_map .object_content embed,
+.div_you_tube .object_content embed {
   position: absolute;
   top: 0;
   left: 0;
