@@ -5785,6 +5785,7 @@ body {
 .container {
   background-position: top left;
   background-repeat: repeat-x;
+  background-image: url("images/bg.png");
 }
 .col-1,
 .col-2 {
@@ -5973,6 +5974,11 @@ h6,
 }
 .company-data.logo-4 {
   text-align: right;
+}
+/*bandierine multilingua*/
+.LanguageSwitcher {
+  position: fixed;
+  right: 0;
 }
 /*submenu*/
 #menu_2 {
@@ -6230,6 +6236,9 @@ form table .scf_label .scf_button:active {
     padding-right: 20px;
     text-align: center;
   }
+  .LanguageSwitcher {
+    left: 0;
+  }
   .breadcrumb {
     display: none;
   }
@@ -6241,10 +6250,15 @@ form table .scf_label .scf_button:active {
     padding-top: 30px;
   }
 }
+@media (min-width: 752px) and (max-width: 872px) {
+  .navbar-nav {
+    padding-right: 62px;
+  }
+}
 @media (min-width: 768px) {
   .container .container-fluid,
   .container .row {
-    width: 738px;
+    width: 731px;
     margin-left: auto;
     margin-right: auto;
   }

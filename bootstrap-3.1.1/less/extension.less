@@ -1,7 +1,7 @@
 
 body {
   font-family: @base-font; font-size: @base-font-size; font-weight:@base-font-weight;}
-.container {background-position:top left; background-repeat:repeat-x;}
+.container {background-position:top left; background-repeat:repeat-x; background-image:url("images/bg.png");}
 .col-1,.col-2{font-weight:@base-font-weight; margin-bottom:40px;}
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {font-family: @base-font; font-weight:@normal-font-weight;}
 
@@ -62,6 +62,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {font-family: @base-font; f
 .company-data.logo-0, .company-data.logo-1, .company-data.logo-2 {padding:90px 20px;}
 .company-data.logo-3 {text-align:left;}
 .company-data.logo-4 {text-align:right;}
+
+
+/*bandierine multilingua*/
+.LanguageSwitcher {position:fixed; right:0;}
 
 
 /*submenu*/
@@ -167,12 +171,16 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
   .jumbotron p {font-size:18px;}
   .company-data.logo-3 {padding-left:20px;text-align:center;}
   .company-data.logo-4 {padding-right:20px;text-align:center;}
+  .LanguageSwitcher {left:0;}
   .breadcrumb {display:none;}
   .div_ttdl a {width:100%; text-align:center;}
   .col-sm-9 {	padding-top:30px;}
 }
+@media (min-width: 752px) and (max-width: 872px) {
+    .navbar-nav {padding-right: 62px;}
+}
 @media (min-width: 768px) {
-  .container .container-fluid, .container .row {width: 738px;	margin-left: auto;	margin-right:auto;}
+  .container .container-fluid, .container .row {width: 731px;	margin-left: auto;	margin-right:auto;}
   .container .footer-row {width:100%;}
   .container {width: 100%;}
   .omsfloat-25 {float: left; margin: 0 2% 60px;width: 46%;}
