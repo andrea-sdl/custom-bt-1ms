@@ -1,6 +1,7 @@
 /* CSS crunched with Crunch - http://crunchapp.net/ */
-@import url(http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700,300italic,400italic,500italic,700italic&subset=latin,cyrillic-ext,greek,vietnamese,latin-ext,cyrillic);
+@import url(http://brick.a.ssl.fastly.net/Fira+Sans:300,400,500,700,300i,400i,500i,700i#.css);
 @import url(http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+/*il #.css in fondo serve per far funzionare less */
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
