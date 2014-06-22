@@ -4,8 +4,19 @@ body {
 .col-1,.col-2{font-weight:@base-font-weight; margin-bottom:40px;}
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {font-family: @base-font; font-weight:@normal-font-weight;}
 
-.flexible-container,.div_google_map ,.div_you_tube{position: relative;padding-bottom: 56.25%;padding-top: 30px;height: 0;overflow: hidden;}
-.flexible-container iframe,.div_google_map iframe, .div_you_tube iframe, .flexible-container object,.div_google_map object,  .div_you_tube object, .flexible-container embed ,.div_google_map embed, .div_you_tube embed{position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+.flexible-container,
+.div_google_map .object_content,
+.div_you_tube .object_content{position: relative;padding-bottom: 56.25%;padding-top: 30px;height: 0;overflow: hidden;}
+
+.flexible-container iframe,
+.div_google_map .object_content iframe,
+.div_you_tube .object_content iframe,
+.flexible-container .object_content object,
+.div_google_map .object_content object,
+.div_you_tube .object_content object,
+.flexible-container .object_content embed,
+.div_google_map .object_content embed,
+.div_you_tube .object_content embed{position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
 
 #omsBannerDiv{margin-bottom:40px;}
 
