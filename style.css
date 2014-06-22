@@ -5829,12 +5829,6 @@ h6,
 #omsBannerDiv {
   margin-bottom: 40px;
 }
-#insert_content {
-  width: 495px !important;
-}
-#insert_content .add_content_block {
-  height: 112px !important;
-}
 .sidebar-btn {
   display: none;
 }
