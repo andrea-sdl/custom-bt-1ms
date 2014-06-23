@@ -5841,6 +5841,7 @@ h6,
   color: #333333;
   font-size: 14px;
   margin-top: 20px !important;
+  margin-bottom: 40px;
   padding: 10px 0;
   text-transform: uppercase;
 }
@@ -5873,6 +5874,9 @@ h6,
   .sidebar-hide {
     display: none !important;
   }
+}
+.breadcrumb {
+  display: none;
 }
 /*stile*/
 .container {
@@ -6288,7 +6292,7 @@ form table .scf_label .scf_button:active {
 @media (min-width: 992px) {
   .container .container-fluid,
   .container .row {
-    width: 962px;
+    width: 955px;
     margin-left: auto;
     margin-right: auto;
   }
