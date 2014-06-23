@@ -5874,9 +5874,9 @@ h6,
   .sidebar-hide {
     display: none !important;
   }
-}
-.breadcrumb {
-  display: none;
+  .breadcrumb {
+    display: none;
+  }
 }
 /*stile*/
 .container {
