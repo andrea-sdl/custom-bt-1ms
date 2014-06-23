@@ -6238,6 +6238,8 @@ form table .scf_label .scf_button:active {
   }
   .LanguageSwitcher {
     left: 0;
+    right: 70px;
+    padding: 15px 10px !important;
   }
   .breadcrumb {
     display: none;
