@@ -1,7 +1,7 @@
 
 body {
   font-family: @base-font; font-size: @base-font-size; font-weight:@base-font-weight;}
-.col-1,.col-2{font-weight:@base-font-weight; margin-bottom:40px;}
+.col-1,.col-2{font-weight:@base-font-weight; margin-bottom:40px; overflow:hidden;}
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {font-family: @base-font; font-weight:@normal-font-weight;}
 
 .flexible-container,
@@ -95,13 +95,15 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {font-family: @base-font; f
 
 /*titoli*/
 h1 {display:none;}
-.h2_ttil {line-height:34px;	color:#333;	margin-bottom:40px;	margin-top:0px;	word-wrap:break-word;}
+.h2_ttil {line-height:34px;	color:#333;	margin-bottom:30px;	margin-top:0px;	word-wrap:break-word;}
+.h3_ttil {margin:0px 0px 20px;}
 
 
 /*contenuti*/
 .div_central {margin-bottom:60px;overflow:hidden;}
 .div_central .abstract {overflow:hidden;}
 ul {list-style:circle outside;}
+.sidebar_block {overflow:hidden; margin-bottom:30px !important;}
 
 
 /*galleria immagini*/
@@ -136,7 +138,7 @@ input, textarea {width:90%;	min-height:30px;border:1px solid #ccc;border-radius:
 .form_privacy {overflow:hidden;}
 .form_privacy input, .form_privacy p {float:left;}
 .form_privacy p {width:90%;	padding:8px;font-size:10px;	line-height:12px;}
-#invia {border:none;color:#ffffff;padding:5px 30px;	border-radius:4px;font-size:18px;font-weight:@normal-font-weight;text-transform:uppercase;float:right;margin-right:10%;margin-bottom:40px;
+#invia {border:none;color:#ffffff;padding:5px 30px;	border-radius:4px;font-size:18px;font-weight:@normal-font-weight;text-transform:uppercase;float:right;margin-right:10%;
 
   background-color:@brand-primary;
 }
@@ -190,35 +192,24 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
   .container .container-fluid, .container .row {width: 731px;	margin-left: auto;	margin-right:auto;}
   .container .footer-row {width:100%;}
   .container {width: 100%;}
-  .omsfloat-25 {float: left; margin: 0 2% 60px;width: 46%;}
-  .omsfloat-25 .h2_ttil {	font-size:30px;}
-  .omsfloat-75 {float: left; margin: 0 2% 60px; width: 46%;}
-  .omsfloat-75 .h2_ttil {font-size:30px;}
-  .omsfloat-33 {float: left; margin: 0 2% 60px;width: 29%;}
-  .omsfloat-33 .h2_ttil {font-size:30px;}
-  .omsfloat-50 {float: left; margin: 0 2% 60px; width: 46%;}
+  .omsfloat-25 {float: left; margin: 0 4% 60px 0px;width: 46%;}
+  .omsfloat-75 {float: left; margin: 0 4% 60px 0px; width: 46%;}
+  .omsfloat-33 {float: left; margin: 0 4% 60px 0px;width: 29%;}
+  .omsfloat-50 {float: left; margin: 0 4% 60px 0px; width: 46%;}
 }
 @media (min-width: 992px) {
   .container .container-fluid, .container .row { width: 962px;margin-left: auto;	margin-right:auto;}
   .container .footer-row {width:100%;}
   .container {width: 100%;}
-  .omsfloat-25 {float: left; margin: 0 2% 60px; width: 21%;}
-  .omsfloat-25 .h2_ttil {font-size:32px;}
-  .omsfloat-75 {float: left; margin: 0 1% 60px 1%; width: 73%;}
-  .omsfloat-75 .h2_ttil {font-size:32px;}
-  .omsfloat-33 {float: left; margin: 0 2% 60px; width: 29%;}
-  .omsfloat-33 .h2_ttil {font-size:32px;}
-  .omsfloat-50 {float: left; margin: 0 2% 60px; width: 46%;}
-  .omsfloat-50 .h2_ttil {font-size:32px;}
+  .omsfloat-25 {float: left; margin: 0 4% 60px 0px; width: 21%;}
+  .omsfloat-75 {float: left; margin: 0 2% 60px 0px; width: 73%;}
+  .omsfloat-33 {float: left; margin: 0 4% 60px 0px; width: 29%;}
+  .omsfloat-50 {float: left; margin: 0 4% 60px 0px; width: 46%;}
 }
 @media (min-width: 1200px) {
   .container .container-fluid, .container .row {width: 1170px;margin-left: auto;margin-right:auto;}
   .container .footer-row {width:100%;}
   .container {width: 100%;}
-  .omsfloat-33 .h2_ttil {font-size:36px;}
-  .omsfloat-50 .h2_ttil {font-size:36px;}
-  .omsfloat-25 .h2_ttil {font-size:36px;}
-  .omsfloat-75 .h2_ttil {font-size:36px;}
 }
 
 
@@ -232,7 +223,7 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
 .div_you_tube .object_content, .div_google_map .object_content {position: relative;padding-bottom: 56.25%;height: 0; overflow: hidden;}
 .div_you_tube .object_content iframe,.div_you_tube .object_content object,.div_you_tube .object_content embed, .div_google_map .object_content iframe, .div_google_map .object_content object,.div_google_map .object_content embed {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
 @media (max-width: 991px) {
-  .div_ttil  .object_content {position: relative;padding-bottom: 56.25%;height: 0;overflow: hidden;}
+  .div_you_tube .object_content, .div_google_map .object_content {position: relative;padding-bottom: 56.25%;height: 0;overflow: hidden;}
 
   .div_ttil .object_content iframe,
   .div_ttil .object_content object,

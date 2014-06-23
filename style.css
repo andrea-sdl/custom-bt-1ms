@@ -5786,6 +5786,7 @@ body {
 .col-2 {
   font-weight: 300;
   margin-bottom: 40px;
+  overflow: hidden;
 }
 h1,
 h2,
@@ -6020,9 +6021,12 @@ h1 {
 .h2_ttil {
   line-height: 34px;
   color: #333;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   margin-top: 0px;
   word-wrap: break-word;
+}
+.h3_ttil {
+  margin: 0px 0px 20px;
 }
 /*contenuti*/
 .div_central {
@@ -6034,6 +6038,10 @@ h1 {
 }
 ul {
   list-style: circle outside;
+}
+.sidebar_block {
+  overflow: hidden;
+  margin-bottom: 30px !important;
 }
 /*galleria immagini*/
 .div_gallery a.gallery-image-wrapper {
@@ -6141,7 +6149,6 @@ textarea {
   text-transform: uppercase;
   float: right;
   margin-right: 10%;
-  margin-bottom: 40px;
   background-color: #f13d49;
 }
 #invia:hover,
@@ -6259,31 +6266,22 @@ form table .scf_label .scf_button:active {
   }
   .omsfloat-25 {
     float: left;
-    margin: 0 2% 60px;
+    margin: 0 4% 60px 0px;
     width: 46%;
-  }
-  .omsfloat-25 .h2_ttil {
-    font-size: 30px;
   }
   .omsfloat-75 {
     float: left;
-    margin: 0 2% 60px;
+    margin: 0 4% 60px 0px;
     width: 46%;
-  }
-  .omsfloat-75 .h2_ttil {
-    font-size: 30px;
   }
   .omsfloat-33 {
     float: left;
-    margin: 0 2% 60px;
+    margin: 0 4% 60px 0px;
     width: 29%;
-  }
-  .omsfloat-33 .h2_ttil {
-    font-size: 30px;
   }
   .omsfloat-50 {
     float: left;
-    margin: 0 2% 60px;
+    margin: 0 4% 60px 0px;
     width: 46%;
   }
 }
@@ -6302,35 +6300,23 @@ form table .scf_label .scf_button:active {
   }
   .omsfloat-25 {
     float: left;
-    margin: 0 2% 60px;
+    margin: 0 4% 60px 0px;
     width: 21%;
-  }
-  .omsfloat-25 .h2_ttil {
-    font-size: 32px;
   }
   .omsfloat-75 {
     float: left;
-    margin: 0 1% 60px 1%;
+    margin: 0 2% 60px 0px;
     width: 73%;
-  }
-  .omsfloat-75 .h2_ttil {
-    font-size: 32px;
   }
   .omsfloat-33 {
     float: left;
-    margin: 0 2% 60px;
+    margin: 0 4% 60px 0px;
     width: 29%;
-  }
-  .omsfloat-33 .h2_ttil {
-    font-size: 32px;
   }
   .omsfloat-50 {
     float: left;
-    margin: 0 2% 60px;
+    margin: 0 4% 60px 0px;
     width: 46%;
-  }
-  .omsfloat-50 .h2_ttil {
-    font-size: 32px;
   }
 }
 @media (min-width: 1200px) {
@@ -6345,18 +6331,6 @@ form table .scf_label .scf_button:active {
   }
   .container {
     width: 100%;
-  }
-  .omsfloat-33 .h2_ttil {
-    font-size: 36px;
-  }
-  .omsfloat-50 .h2_ttil {
-    font-size: 36px;
-  }
-  .omsfloat-25 .h2_ttil {
-    font-size: 36px;
-  }
-  .omsfloat-75 .h2_ttil {
-    font-size: 36px;
   }
 }
 /*larghezza righe*/
@@ -6395,16 +6369,25 @@ form table .scf_label .scf_button:active {
   height: 100%;
 }
 @media (max-width: 991px) {
-    .div_ttil  .object_content {position: relative;padding-bottom: 56.25%;height: 0;overflow: hidden;}
-
-    .div_ttil .object_content iframe,
-    .div_ttil .object_content object,
-    .div_ttil .object_content embed {
-        position: absolute;top: 0;left: 0;width: 100%;height: 100%;
-    }
-    .div_google_map .object_content .g-map {
-        width: auto !important
-    }
+  .div_you_tube .object_content,
+  .div_google_map .object_content {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+  }
+  .div_ttil .object_content iframe,
+  .div_ttil .object_content object,
+  .div_ttil .object_content embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .div_google_map .object_content .g-map {
+    width: auto !important;
+  }
 }
 /*ecommerce*/
 .itemContainer .itemPrice {
