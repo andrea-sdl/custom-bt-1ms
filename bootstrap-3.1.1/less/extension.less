@@ -55,15 +55,15 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {font-family: @base-font; f
   background-color:@brand-primary;
 }
 .logo-wrapper {padding:0px 45px;}
-.company-data {padding:60px 20px; height:300px; text-align:center;}
+.company-data {padding:60px 20px; height:300px; text-align:center; text-shadow:1px 1px 1px rgba(0,0,0,0.5)}
 .title-jumbo {display:block; word-wrap:break-word; padding-top:10px;}
 .title-jumbo a {font-size:40px; font-family: 'Fira Sans', sans-serif; font-weight:@normal-font-weight; color:#fff; text-transform:uppercase; line-height:1.4em;}
 .title-jumbo a:hover {text-decoration:none;}
 .jumbotron p {margin-bottom:0px !important; color:#fff;}
-.company-data a img {max-height:80px; width: auto !important}
+.company-data a img {max-height:80px; width: auto !important; height:auto !important;}
 
 /*overlay per top-image*/
-.top-image-1 .company-data {background:rgba(0,0,0,0.25); text-shadow:1px 1px 0px rgba(51,51,51,0.25)}
+.top-image-1 .company-data {background:rgba(0,0,0,0.25);}
 
 
 /*posizione logo*/
@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {font-family: @base-font; f
 #menu_2 {margin-bottom:40px;}
 #menu_2 li a {padding:0px 20px 0px;	border-radius:4px; color:#333; font-size:@base-font-size; margin-top:-1px;}
 #menu_2 li a>span {display:block; padding:9px 0px 7px; border-bottom: 1px solid #e1e1e1;}
-#menu_2 li a:hover, #menu_2 li a:focus {background-color:#e1e1e1; color:#000;}
+#menu_2 li a:hover, #menu_2 li a:focus, #menu_2 li a.current {background-color:#e1e1e1; color:#000;}
 
 
 /*breadcrumbs*/
@@ -103,7 +103,7 @@ h1 {display:none;}
 /*contenuti*/
 .div_central {margin-bottom:60px;overflow:hidden;}
 .div_central .abstract {overflow:hidden;}
-ul {list-style:circle outside;}
+ul {list-style:circle inside;}
 .sidebar_block {overflow:hidden; margin-bottom:40px !important;}
 
 
@@ -144,7 +144,7 @@ input, textarea {width:90%;	min-height:30px;border:1px solid #ccc;border-radius:
   background-color:@brand-primary;
 }
 #invia:hover, #invia:active {
-  background-color:#ee1725;
+  background-color:@link-hover-color;
 }
 
 
@@ -186,7 +186,7 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
   .div_ttdl a {width:100%; text-align:center;}
   .col-sm-9 {	padding-top:30px;}
 }
-@media (min-width: 752px) and (max-width: 872px) {
+@media (min-width: 752px) and (max-width: 1200px) {
     .navbar-nav {padding-right: 62px;}
 }
 @media (min-width: 768px) {
@@ -208,7 +208,7 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
   .omsfloat-50 {float: left; margin: 0 4% 60px 0px; width: 46%;}
 }
 @media (min-width: 1200px) {
-  .container .container-fluid, .container .row {width: 1170px;margin-left: auto;margin-right:auto;}
+  .container .container-fluid, .container .row {width: 1162px;margin-left: auto;margin-right:auto;}
   .container .footer-row {width:100%;}
   .container {width: 100%;}
 }
@@ -222,7 +222,7 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
 
 /*responsive style google map e video*/
 .div_you_tube .object_content, .div_google_map .object_content {position: relative;padding-bottom: 56.25%;height: 0; overflow: hidden;}
-.div_you_tube .object_content iframe,.div_you_tube .object_content object,.div_you_tube .object_content embed, .div_google_map .object_content iframe, .div_google_map .object_content object,.div_google_map .object_content embed {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+.div_you_tube .object_content iframe,.div_you_tube .object_content object,.div_you_tube .object_content embed, .div_google_map .object_content iframe, .div_google_map .object_content object,.div_google_map .object_content embed {position: relative;top: 0;left: 0;width: 100%;height: 100%;}
 @media (max-width: 991px) {
   .div_you_tube .object_content, .div_google_map .object_content {position: relative;padding-bottom: 56.25%;height: 0;overflow: hidden;}
 
@@ -301,3 +301,8 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
 @media (max-width: 991px) {
   #main-nav-menu-div .navbar-collapse {background: rgba(255, 255, 255, 0.1);}
 }
+
+
+/*tabelle*/
+.div_ttil .abstract > table {width:90%; margin-bottom:20px;}
+.div_ttil .abstract > table td {border:1px solid #e1e1e1; padding:5px; word-wrap: break-word;}
