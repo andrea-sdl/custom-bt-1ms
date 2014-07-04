@@ -6541,3 +6541,10 @@ form table .scf_label .scf_button:active {
   padding: 5px;
   word-wrap: break-word;
 }
+
+
+#top_image {
+    background-image: url("top_image.jpg?template=seasand_bs3");
+}
+#top_image .company-data {
+    background: rgba(0, 0, 0, 0.25);}
