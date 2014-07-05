@@ -6932,3 +6932,11 @@ form table .scf_label .scf_button:active {
   padding: 5px;
   word-wrap: break-word;
 }
+.col-2 {
+  float: right;
+}
+@media (max-width: 991px) {
+  .col-2 {
+    float: none;
+  }
+}
